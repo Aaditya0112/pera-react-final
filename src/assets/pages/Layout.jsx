@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet} from "react-router-dom";
 import iitk_logo from "../images/iitk_logo.png";
 import ieee_logo from "../images/ieee.svg";
 
@@ -14,11 +14,11 @@ const Layout = () => {
             <div className="logos">
                 <div className="self">
                     <div className="pes">
-                        <img src="https://site.ieee.org/sb-iitk-pes/files/2021/08/PES-SBC-768x601.png" />
+                        <img src="https://site.ieee.org/sb-iitk-pes/files/2021/08/PES-SBC-768x601.png" alt = "PES-Logo" />
                     </div>
 
                     <div className="pera">
-                        <img src="https://site.ieee.org/sb-iitk-pes/files/2021/06/PERA-Logo.png" />
+                        <img src="https://site.ieee.org/sb-iitk-pes/files/2021/06/PERA-Logo.png" alt= "PERA-Logo" />
                     </div>
 
                 </div>
