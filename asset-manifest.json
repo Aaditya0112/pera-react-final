@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pera-react-final/static/css/main.d323d065.css",
-    "main.js": "/pera-react-final/static/js/main.381a8478.js",
+    "main.js": "/pera-react-final/static/js/main.b9f0c613.js",
     "static/media/Sandeep_Anand.jpg": "/pera-react-final/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
     "static/media/slide3.jpg": "/pera-react-final/static/media/slide3.9daa59e750abcd0a69f5.jpg",
     "static/media/Premlata_Jena.jpg": "/pera-react-final/static/media/Premlata_Jena.004810aa98c3c8fe8762.jpg",
@@ -22,10 +22,10 @@
     "static/media/ieee.svg": "/pera-react-final/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/pera-react-final/index.html",
     "main.d323d065.css.map": "/pera-react-final/static/css/main.d323d065.css.map",
-    "main.381a8478.js.map": "/pera-react-final/static/js/main.381a8478.js.map"
+    "main.b9f0c613.js.map": "/pera-react-final/static/js/main.b9f0c613.js.map"
   },
   "entrypoints": [
     "static/css/main.d323d065.css",
-    "static/js/main.381a8478.js"
+    "static/js/main.b9f0c613.js"
   ]
 }
