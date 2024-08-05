@@ -13,7 +13,7 @@ const Speakers = [
     {
         id: 1,
         title: " Prof. Premlata Jena",
-        description: "IIT Roorkee Prof. Premalata Jena (Senior Member, IEEE) received the B.Tech. degree in electrical engineering from Utkal University, Odisha, India, in 2001, and the M.Tech. and Ph.D. degrees in power system engineering from the Department of Electrical Engineering, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, India, in 2006 and 2011, respectively.,Since 2012, she has been an Assistant Professor with the Department of Electrical Engineering, IIT Roorkee, Roorkee, India, where she is currently an Associate Professor with the Department of Electrical Engineering. Her research interests include power system protection, microgrid protection, and issues due to the integration of renewables with the existing power grid.,Dr. Jena was the recipient of the SERB-POWER Fellowship-2022 from SERB, New Delhi, the Women Excellence Award-2017 from DST, New Delhi, the Young Engineer Award, Indian National Academy of Engineering, and the POSOCO Power System Award, Power Grid Corporation of India Ltd., India, in 2013.",
+        description: "IIT Roorkee",
         imageSrc: pj,
     },
 
