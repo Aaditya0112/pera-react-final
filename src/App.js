@@ -8,12 +8,22 @@ import SpeakersList from './assets/pages/SpeakersList';
 import Committee from './assets/pages/Committee';
 
 // import speaker from './assets/js/speaker.js';
-import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider} from "react-router-dom";
+import { createBrowserRouter,Routes, Route, createRoutesFromElements, RouterProvider, BrowserRouter} from "react-router-dom";
 
 
 
-const router = createBrowserRouter(
-  createRoutesFromElements(
+// const router = createBrowserRouter(
+//   createRoutesFromElements(
+    
+//   )
+// )
+
+function App({routes}) {
+
+  return (
+    <>
+      <BrowserRouter>
+    <Routes>
     <Route path="/" element={<Layout/>}>
       <Route path='/' element={<Home />} />
       <Route path="about" element={<About />} />
@@ -27,14 +37,8 @@ const router = createBrowserRouter(
 
       <Route path="*" element={<NoPage />} /> 
     </Route>
-  )
-)
-
-function App({routes}) {
-
-  return (
-    <>
-      <RouterProvider router={router}/>
+    </Routes>
+    </BrowserRouter>
     </>
   );
 }
