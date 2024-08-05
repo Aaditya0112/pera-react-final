@@ -18,7 +18,7 @@ import { createBrowserRouter,Routes, Route, createRoutesFromElements, RouterProv
 //   )
 // )
 
-function App({routes}) {
+function App() {
 
   return (
     <>
