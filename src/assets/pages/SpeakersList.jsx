@@ -17,7 +17,7 @@ const  SpeakersList = ()=>{
             document.querySelector('.infoBox').removeAttribute('id');
             document.querySelector('.popupContent').innerHTML = '';
             document.querySelector('.infoBox').style.display = 'none';
-        }}>x</button>
+        }}>&#10006;</button>
                 
     </div>
     <div className="layer">

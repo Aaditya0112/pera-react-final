@@ -20,6 +20,19 @@
     z-index: 3;
 }
 
+.popupClose{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ff6347cf;
+}
+
+.popupClose:hover{
+    color: #ff0303;
+}
+
 
 .activeL{
     position: fixed;
@@ -32,4 +45,14 @@
 .layer{
     width: 100%;
     z-index: 2;
+}
+
+@media (max-width : 450px){
+    .infobox{
+        width: 90%;
+    }
+    .popupClose{
+        top: 5px;
+        right: 10px;
+    }
 }
