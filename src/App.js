@@ -6,6 +6,7 @@ import NoPage from './assets/pages/NoPage';
 import ComingSoon from './assets/pages/ComingSoon';
 import SpeakersList from './assets/pages/SpeakersList';
 import Committee from './assets/pages/Committee';
+
 // import speaker from './assets/js/speaker.js';
 import { createBrowserRouter, Route, createRoutesFromElements, RouterProvider} from "react-router-dom";
 
@@ -34,7 +35,6 @@ function App({routes}) {
   return (
     <>
       <RouterProvider router={router}/>
-      
     </>
   );
 }

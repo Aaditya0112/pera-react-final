@@ -8,8 +8,16 @@ const  SpeakersList = ()=>{
             
             {Speakers.map((speaker, index) => {return(<HoverCard Data = {speaker} />);})}
     </div>
-    <div className="infoBox w-10 h-10">
-        <button className='popupClose'>x</button>
+    <div className="infoBox w-52 h-fit fixed">
+        <div className="popupContent">
+
+        </div>
+        <button className='popupClose' onClick={() => {
+            document.querySelector('.layer').classList.remove('activeL');
+            document.querySelector('.infoBox').removeAttribute('id');
+            document.querySelector('.popupContent').innerHTML = '';
+            document.querySelector('.infoBox').style.display = 'none';
+        }}>x</button>
                 
     </div>
     <div className="layer">

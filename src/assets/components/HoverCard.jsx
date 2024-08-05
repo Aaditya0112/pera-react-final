@@ -4,15 +4,10 @@ import React, { useState } from 'react';
 // import img from '../Images/1.jpeg'
 const HoverCard = (props) => {
   const { id, title, description, imageSrc, bio } = props.Data;
-  const [isFlipped, setIsFlipped] = useState(false);
-
-  const handleFlip = () => {
-    setIsFlipped(!isFlipped);
-  };
 
   return (
     <div
-      className={`relative w-72 bg-indigo-300 h-96 rounded overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform duration-300 ease-in-out ${isFlipped ? 'flip' : ''}`}
+      className={`relative w-72 bg-indigo-300 h-96 rounded overflow-hidden shadow-lg hover:shadow-xl transform hover:scale-105 transition-transform duration-300 ease-in-out`}
       // onMouseEnter={handleFlip}
       // onMouseLeave={handleFlip}
     >
@@ -24,7 +19,13 @@ const HoverCard = (props) => {
           <img className="w-56 h-56 object-cover object-center rounded-full" src={imageSrc} alt={title} />
           <h2 className="font-bold text-xl mb-2">{title}</h2>
           <p>{description}</p>
-          <button className="infoButton bg-white text-indigo-500 px-4 py-2 rounded-full">More Info</button>
+          <button className="infoButton bg-white text-indigo-500 px-4 py-2 rounded-full" onClick ={() => {
+            document.querySelector('.infoBox').style.display = 'block';
+            document.querySelector('.layer').classList.toggle('activeL');
+            // document.querySelector('.infoBox').setAttribute('id', `${id}`);
+            document.querySelector('.popupContent').innerHTML = `<p>${description}</p>`;
+
+          }}>More Info</button>
           {/* {isFlipped&&<p>{description}</p>}
           {isFlipped&&<p>{bio}</p>} */}
         </div>
