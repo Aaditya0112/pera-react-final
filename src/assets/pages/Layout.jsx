@@ -43,15 +43,15 @@ const Layout = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="pera-react-final/">Home</Nav.Link>
-            <Nav.Link href="pera-react-final/about">About us</Nav.Link>
-            <Nav.Link href="pera-react-final/committee">Committee</Nav.Link>
-            <Nav.Link href="pera-react-final/speakers">Speakers</Nav.Link>
-            <Nav.Link href="pera-react-final/eventDetails">Event Details</Nav.Link>
-            <Nav.Link href="pera-react-final/registration">Registration</Nav.Link>
-            <Nav.Link href="pera-react-final/studentSupport">Student Travel Support</Nav.Link>
-            <Nav.Link href="pera-react-final/accomodation">Accommodation</Nav.Link>
-            <Nav.Link href="pera-react-final/contact">Contact</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/about">About us</Nav.Link>
+            <Nav.Link href="/committee">Committee</Nav.Link>
+            <Nav.Link href="/speakers">Speakers</Nav.Link>
+            <Nav.Link href="/eventDetails">Event Details</Nav.Link>
+            <Nav.Link href="/registration">Registration</Nav.Link>
+            <Nav.Link href="/studentSupport">Student Travel Support</Nav.Link>
+            <Nav.Link href="/accomodation">Accommodation</Nav.Link>
+            <Nav.Link href="/contact">Contact</Nav.Link>
 
           </Nav>
         </Navbar.Collapse>
