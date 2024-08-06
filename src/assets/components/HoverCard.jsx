@@ -25,7 +25,7 @@ const HoverCard = (props) => {
             // document.querySelector('.infoBox').setAttribute('id', `${id}`);
             document.querySelector('.popupContent').innerHTML = `<p>${description}</p>`;
 
-          }}>More Info</button>
+          }}>About</button>
           {/* {isFlipped&&<p>{description}</p>}
           {isFlipped&&<p>{bio}</p>} */}
         </div>

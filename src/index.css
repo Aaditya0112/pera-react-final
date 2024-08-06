@@ -216,6 +216,16 @@ p{
   margin:2vh
 }
 
+.activeTab{
+  color: rgb(255, 255, 255) !important;
+  background-color: rgba(255, 151, 71, 0.911) !important;
+  border-radius: 5px;
+
+  
+}
+
+
+
 @media (max-width: 767px) {
   .timeline-1 {
     max-width: 98%;
@@ -313,6 +323,12 @@ p{
   }
   .carousel-inner img {
       height: 44vh;
+  }
+
+  .nav-link
+  {
+    margin: 5px 0 0 0;
+    padding: 5px !important;
   }
 }
 

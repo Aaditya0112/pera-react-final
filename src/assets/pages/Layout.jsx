@@ -43,15 +43,80 @@ const Layout = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="/" className="nav-link">Home</Link>
-            <Link to="/about" className="nav-link">About us</Link>
-            <Link to="/committee" className="nav-link">Committee</Link>
-            <Link to="/speakers" className="nav-link">Speakers</Link>
-            <Link to="/eventDetails" className="nav-link">Event Details</Link>
-            <Link to="/registration" className="nav-link">Registration</Link>
-            <Link to="/studentSupport" className="nav-link">Student Travel Support</Link>
-            <Link to="/accomodation" className="nav-link">Accommodation</Link>
-            <Link to="/contact" className="nav-link">Contact</Link>
+            <Link to="/" className="nav-link activeTab" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[0].classList.add('activeTab');
+                }
+            }>Home</Link>
+            <Link to="/about" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[1].classList.add('activeTab');
+                    
+                }
+            }>About us</Link>
+            <Link to="/committee" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[2].classList.add('activeTab');
+                    
+                }
+            }>Committee</Link>
+            <Link to="/speakers" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[3].classList.add('activeTab');
+                }
+            }>Speakers</Link>
+            <Link to="/eventDetails" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[4].classList.add('activeTab');
+                }
+            }>Event Details</Link>
+            <Link to="/registration" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[5].classList.add('activeTab');
+                }
+            }>Registration</Link>
+            <Link to="/studentSupport" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[6].classList.add('activeTab');
+                }
+            }>Student Travel Support</Link>
+            <Link to="/accomodation" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[7].classList.add('activeTab');
+                }
+            }>Accommodation</Link>
+            <Link to="/contact" className="nav-link" onClick={
+                () => {
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[8].classList.add('activeTab');
+                }
+            }>Contact</Link>
             {/* <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About us</Nav.Link>
             <Nav.Link href="/committee">Committee</Nav.Link>

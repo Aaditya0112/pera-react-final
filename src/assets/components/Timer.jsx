@@ -29,30 +29,30 @@ const Timer = ({ eventDate }) => {
   });
 
   return (<>
-    <h1 className='heading mb-8'>Hurry Up, Get Your Seat Now !!!</h1>
-    <div className="flex justify-center space-x-2">
+    <h1 className=' text-center text-red-400 mb-8 text-3xl lg:text-5xl '>Hurry Up, Get Your Seat Now !!!</h1>
+    <div className=" w-auto flex justify-center space-x-2 ">
       {timeLeft.days >= 0 && (
-        <div className="bg-blue-200 rounded-lg p-4">
-          <span className="text-3xl">{timeLeft.days}</span>
-          <span className="text-xl">days</span>
+        <div className="flex flex-col items-center w-fit bg-blue-200 rounded-lg p-3 lg:w-auto lg:p-4 lg:flex-row lg:items-end">
+          <span className="text-xl lg:text-3xl">{timeLeft.days}</span>
+          <span className="text-lg lg:text-xl">days</span>
         </div>
       )}
       {timeLeft.hours >= 0 && (
-        <div className="bg-green-200 rounded-lg p-4">
-          <span className="text-3xl">{timeLeft.hours}</span>
-          <span className="text-xl">hours</span>
+        <div className=" flex flex-col items-center w-fit bg-green-200 rounded-lg p-3 lg:w-auto lg:p-4 lg:flex-row lg:items-end">
+          <span className="text-xl  lg:text-3xl">{timeLeft.hours}</span>
+          <span className="text-lg lg:text-xl">hours</span>
         </div>
       )}
       {timeLeft.minutes >= 0 && (
-        <div className="bg-yellow-200 rounded-lg p-4">
-          <span className="text-3xl">{timeLeft.minutes}</span>
-          <span className="text-xl">minutes</span>
+        <div className="flex flex-col items-center w-fit bg-yellow-200 rounded-lg p-3 lg:w-auto lg:p-4 lg:flex-row lg:items-end">
+          <span className="text-xl  lg:text-3xl">{timeLeft.minutes}</span>
+          <span className="text-lg lg:text-xl">minutes</span>
         </div>
       )}
       {timeLeft.seconds >= 0 && (
-        <div className="bg-pink-200 rounded-lg p-4">
-          <span className="text-3xl">{timeLeft.seconds}</span>
-          <span className="text-xl">seconds</span>
+        <div className=" flex flex-col items-center w-fit bg-pink-200 rounded-lg p-3 lg:w-auto lg:p-4 lg:flex-row lg:items-end">
+          <span className="text-xl lg:text-3xl">{timeLeft.seconds}</span>
+          <span className="text-lg lg:text-xl">seconds</span>
         </div>
       )}
     </div>
