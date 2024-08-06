@@ -23,7 +23,9 @@ const HoverCard = (props) => {
             document.querySelector('.infoBox').style.display = 'block';
             document.querySelector('.layer').classList.toggle('activeL');
             // document.querySelector('.infoBox').setAttribute('id', `${id}`);
-            document.querySelector('.popupContent').innerHTML = `<p>${description}</p>`;
+            document.querySelector('.popupContent').innerHTML = `
+            <h2>About Speaker</h2>
+            <p>${bio}</p>`;
 
           }}>About</button>
           {/* {isFlipped&&<p>{description}</p>}
