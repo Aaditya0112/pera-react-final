@@ -55,7 +55,7 @@
 @media (max-width : 450px){
     .infobox{
         width: 90%;
-        top:55%;
+        top:50%;
         p{
             font-size: 0.6rem;
             line-height: 1.5;
