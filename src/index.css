@@ -362,7 +362,7 @@ p{
 
 
 .purple{
-  color:#0087fe
+  color:#0087fe !important;
 }
 @keyframes ticker {
   0% {
