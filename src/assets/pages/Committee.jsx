@@ -1,12 +1,14 @@
 import Accordion from 'react-bootstrap/Accordion';
 import Table from 'react-bootstrap/Table';
 import '../stylesheets/committee.css';
+import MemberCard from '../components/MemeberCard';
 
 function Committee() {
     return (
         <>
-        <div className="currentMemberBox">
-            <h1 className='text-center h-52'>Current Members</h1>
+        <div className="currentMemberBox flex flex-col items-center">
+            <h1 className='text-center'>Current Members</h1>
+            <MemberCard/>
         </div>
 
         {/* // <Accordion defaultActiveKey={['0']} > */}

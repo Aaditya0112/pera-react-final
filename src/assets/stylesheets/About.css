@@ -25,8 +25,8 @@
 .about-EE{
 
     animation: appearee ease-in-out both;
-   animation-timeline: view();
-   animation-range: entry 50% cover 50%;
+   /* animation-timeline: view();
+   animation-range: entry 50% cover 50%; */
     /* transform: tra
     nslateX(-151%);
     animation: appear 0.8s; */
@@ -35,9 +35,9 @@
 }
 .reach-IITK{
     animation: reachiit ease-in-out both;
-    animation-duration: 5s;
-   animation-timeline: view();
-   animation-range: entry 70%;
+    animation-duration: 3s;
+   /* animation-timeline: view();
+   animation-range: entry 70%; */
     display: flex;
     text-align: center;
     padding: 1rem 1rem;
