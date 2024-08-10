@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pera-react-final/static/css/main.0ed5ad88.css",
-    "main.js": "/pera-react-final/static/js/main.9d18253d.js",
+    "main.js": "/pera-react-final/static/js/main.c2970f21.js",
     "static/media/ss.webp": "/pera-react-final/static/media/ss.d5184300394f1713279c.webp",
     "static/media/Sandeep_Anand.jpg": "/pera-react-final/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
     "static/media/gr.webp": "/pera-react-final/static/media/gr.4db4b00391765107889b.webp",
@@ -35,10 +35,10 @@
     "static/media/ieee.svg": "/pera-react-final/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/pera-react-final/index.html",
     "main.0ed5ad88.css.map": "/pera-react-final/static/css/main.0ed5ad88.css.map",
-    "main.9d18253d.js.map": "/pera-react-final/static/js/main.9d18253d.js.map"
+    "main.c2970f21.js.map": "/pera-react-final/static/js/main.c2970f21.js.map"
   },
   "entrypoints": [
     "static/css/main.0ed5ad88.css",
-    "static/js/main.9d18253d.js"
+    "static/js/main.c2970f21.js"
   ]
 }
