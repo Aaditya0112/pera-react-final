@@ -25,9 +25,9 @@ function Committee() {
                     
                 </div>
                 <p className="mailId m-0">
-                gururajmv@iitk.ac.in
+                <a href="mailto:gururajmv@iitk.ac.in">gururajmv@iitk.ac.in</a>
                 </p>
-                <button className='m-1 p-1 rounded border-2 border-red-400 text-red w-fit hover:cursor-pointer' > <a href="https://home.iitk.ac.in/~gururajmv/" style={{textDecoration:"None", color:"#ff1981"}}>Homepage</a></button>
+                <button className='hoverBlack m-1 p-1 rounded border-2 border-red-400 text-red w-fit ' > <a href="https://home.iitk.ac.in/~gururajmv/" style={{textDecoration:"None", color:"#ff1981"}}>Homepage</a></button>
             </div>
 
         </div>
