@@ -1,18 +1,19 @@
-import gmv from '../images/gmv_sir.webp';
+
 import "../stylesheets/memberCard.css";
-function MemberCard({name, designation, emailId}) {
+function MemberCard({name, designation, mailId, img, linkedIn}) {
     return (
-        <div className="member-card flex flex-col items-center justify-center rounded-xl w-3/5 lg:flex-row shadow-xl p-1 m-25">
-            <div className="line flex member-card__image h-56 w-56 lg:mr-6 rounded-full border-8" >
-                <img src={gmv}/>
+        <div className="member-card flex flex-col w-4/5 h-48 items-center justify-between rounded-xl  lg:flex-row shadow-xl p-3 m-8 ">
+            <div className="line flex member-card__image h-44 w-44 lg:mr-6 rounded-full border-8 overflow-hidden" >
+                <img src={img} />
             </div>
             <div className="member-card__info text-center">
-                <h2>Dr. Guru Raj <i style={{fontSize : '24px'}} class="fa">&#xf08c;</i></h2>
+                <h3>{name} <a href = {linkedIn}><i style={{fontSize : '24px', color :'#0a66c2', cursor: 'pointer'
+                }} class="fa fa-linkedin-square" ></i></a></h3>
                 <div className="designation font-bold text-xl cyan-400">
-                    Assistant Professor, IIT Kanpur
+                    {designation}
                 </div>
                 <p className="mailId">
-                    gururajmv@iitk.ac.in
+                    {mailId}
                 </p>
             </div>
 

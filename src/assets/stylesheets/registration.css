@@ -9,8 +9,18 @@
 .ratesTable {
     display: flex;
     justify-content: center;
+    td:hover{
+        transform: scale(1.05);
+        color: #4c98e0;
+        text-decoration:underline;
+    }
+    td:nth-child(1):hover{
+        color: #f36161e0;
+        text-decoration: none;
+    }
 
 }
+
 
 .fixed_headers {
     font-family: "Poppins", sans-serif;

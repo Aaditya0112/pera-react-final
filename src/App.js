@@ -25,7 +25,7 @@ function App() {
       <BrowserRouter>
     <Routes>
     <Route path="/" element={<Layout/>}>
-      <Route path='/' element={<Home />} />
+      <Route path='pera-react-final/' element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="committee" element={<Committee />} />
       <Route path="speakers" element={<SpeakersList />} />
