@@ -309,7 +309,9 @@ p{
       width: fit-content;
       height: 60px;
   }
-
+  .carousel-inner img{
+    height: 50vh;
+  }
   .card img {
       padding: 5px;
       width: 15vh;
