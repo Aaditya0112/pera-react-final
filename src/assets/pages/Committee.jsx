@@ -31,7 +31,7 @@ function Committee() {
 
         </div>
             {/* <MemberCard name = "Dr. Guru Raj" designation = "Assistant Professor, IIT Kanpur" mailId = "gururajmv@iitk.ac.in" img={gmv}/> */}
-            <div className="flex flex-col itemscenter lg:grid w-fit grid-cols-2 justify-items-center">
+            <div className="flex flex-col itemscenter lg:grid md:grid w-fit grid-cols-2 justify-items-center">
             {Members.map((member) => <MemberCard name = {member.name} designation={member.designation} mailId = {member.mailId} img={member.img}/>)}
             </div>
         </div>
