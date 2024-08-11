@@ -26,14 +26,14 @@ function App() {
     <Routes>
     <Route path="/" element={<Layout/>}>
       <Route path='pera-react-final/' element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="committee" element={<Committee />} />
-      <Route path="speakers" element={<SpeakersList />} />
-      <Route path="eventDetails" element={<ComingSoon />} />
-      <Route path="registration" element={<Registration />} />
-      <Route path="studentSupport" element={<ComingSoon/>} />
-      <Route path="accomodation" element={<ComingSoon/>} />
-      <Route path="contact" element={<ComingSoon />} />
+      <Route path="pera-react-final/about" element={<About />} />
+      <Route path="pera-react-final/committee" element={<Committee />} />
+      <Route path="pera-react-final/speakers" element={<SpeakersList />} />
+      <Route path="pera-react-final/eventDetails" element={<ComingSoon />} />
+      <Route path="pera-react-final/registration" element={<Registration />} />
+      <Route path="pera-react-final/studentSupport" element={<ComingSoon/>} />
+      <Route path="pera-react-final/accomodation" element={<ComingSoon/>} />
+      <Route path="pera-react-final/contact" element={<ComingSoon />} />
 
       <Route path="*" element={<NoPage />} /> 
     </Route>
