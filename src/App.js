@@ -9,6 +9,7 @@ import Committee from './assets/pages/Committee';
 
 // import speaker from './assets/js/speaker.js';
 import { createBrowserRouter,Routes, Route, createRoutesFromElements, RouterProvider, BrowserRouter} from "react-router-dom";
+import Contact from './assets/pages/Contact';
 
 
 
@@ -33,7 +34,7 @@ function App() {
       <Route path="pera-react-final/registration" element={<Registration />} />
       <Route path="pera-react-final/studentSupport" element={<ComingSoon/>} />
       <Route path="pera-react-final/accomodation" element={<ComingSoon/>} />
-      <Route path="pera-react-final/contact" element={<ComingSoon />} />
+      <Route path="pera-react-final/contact" element={<Contact />} />
 
       <Route path="*" element={<NoPage />} /> 
     </Route>

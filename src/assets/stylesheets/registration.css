@@ -10,13 +10,12 @@
     display: flex;
     justify-content: center;
     td:hover{
-        transform: scale(1.05);
-        color: #4c98e0;
-        text-decoration:underline;
+        transform: scale(1.15);
     }
     td:nth-child(1):hover{
+        transform: scale(1.05);
         color: #f36161e0;
-        text-decoration: none;
+        
     }
 
 }

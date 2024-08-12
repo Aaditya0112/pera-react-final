@@ -143,7 +143,7 @@ const Home = () => {
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="dd/mm/yyyy"
+          date="15 Aug 2024"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
         >
@@ -151,7 +151,7 @@ const Home = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="dd/mm/yyyy"
+          date="30 Sep 2024"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
         >
@@ -160,11 +160,11 @@ const Home = () => {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          date="dd/mm/yyyy"
+          date="30 Nov 2024"
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
         >
-          <h3 className="vertical-timeline-element-title">Workshop</h3>
+          <h3 className="vertical-timeline-element-title">Workshop Begins</h3>
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement
     className="vertical-timeline-element--education"
