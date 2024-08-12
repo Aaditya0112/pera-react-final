@@ -43,7 +43,7 @@ const Layout = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link to="pera-react-final/" className="nav-link activeTab" onClick={
+            <Link to="/" className="nav-link activeTab" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -51,7 +51,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[0].classList.add('activeTab');
                 }
             }>Home</Link>
-            <Link to="pera-react-final/about" className="nav-link" onClick={
+            <Link to="/about" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -60,7 +60,7 @@ const Layout = () => {
                     
                 }
             }>About us</Link>
-            <Link to="pera-react-final/committee" className="nav-link" onClick={
+            <Link to="/committee" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -69,7 +69,7 @@ const Layout = () => {
                     
                 }
             }>Committee</Link>
-            <Link to="pera-react-final/speakers" className="nav-link" onClick={
+            <Link to="/speakers" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -77,7 +77,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[3].classList.add('activeTab');
                 }
             }>Speakers</Link>
-            <Link to="pera-react-final/eventDetails" className="nav-link" onClick={
+            <Link to="/eventDetails" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -85,7 +85,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[4].classList.add('activeTab');
                 }
             }>Event Details</Link>
-            <Link to="pera-react-final/registration" className="nav-link" onClick={
+            <Link to="/registration" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -93,7 +93,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[5].classList.add('activeTab');
                 }
             }>Registration</Link>
-            <Link to="pera-react-final/studentSupport" className="nav-link" onClick={
+            <Link to="/studentSupport" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -101,7 +101,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[6].classList.add('activeTab');
                 }
             }>Student Travel Support</Link>
-            <Link to="pera-react-final/accomodation" className="nav-link" onClick={
+            <Link to="/accomodation" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
@@ -109,7 +109,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[7].classList.add('activeTab');
                 }
             }>Accommodation</Link>
-            <Link to="pera-react-final/contact" className="nav-link" onClick={
+            <Link to="/contact" className="nav-link" onClick={
                 () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');

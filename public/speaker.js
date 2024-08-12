@@ -1,5 +1,3 @@
-console.log('speaker.js loaded');
-
 document.querySelectorAll('.infoButton').forEach(button => {
 button.addEventListener('click', function() {
     console.log('clicked');
