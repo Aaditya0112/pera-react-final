@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/pera-react-final/static/css/main.cfbc5a49.css",
-    "main.js": "/pera-react-final/static/js/main.a4cd70c7.js",
+    "main.css": "/pera-react-final/static/css/main.abeb7c8c.css",
+    "main.js": "/pera-react-final/static/js/main.7a18479c.js",
     "static/media/ss.webp": "/pera-react-final/static/media/ss.d5184300394f1713279c.webp",
     "static/media/Sandeep_Anand.jpg": "/pera-react-final/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
     "static/media/gr.webp": "/pera-react-final/static/media/gr.4db4b00391765107889b.webp",
@@ -34,11 +34,11 @@
     "static/media/ieee-up-section-logo.jpg": "/pera-react-final/static/media/ieee-up-section-logo.05ab794c361c25c4881e.jpg",
     "static/media/ieee.svg": "/pera-react-final/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/pera-react-final/index.html",
-    "main.cfbc5a49.css.map": "/pera-react-final/static/css/main.cfbc5a49.css.map",
-    "main.a4cd70c7.js.map": "/pera-react-final/static/js/main.a4cd70c7.js.map"
+    "main.abeb7c8c.css.map": "/pera-react-final/static/css/main.abeb7c8c.css.map",
+    "main.7a18479c.js.map": "/pera-react-final/static/js/main.7a18479c.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfbc5a49.css",
-    "static/js/main.a4cd70c7.js"
+    "static/css/main.abeb7c8c.css",
+    "static/js/main.7a18479c.js"
   ]
 }
