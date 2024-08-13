@@ -26,7 +26,6 @@
     font-weight: 800;
     font-style: normal;
     font-size: 1.2rem;
-    margin-bottom: 3vh;
     animation: appear 0.7s ease;
 
     width: fit-content;
@@ -104,7 +103,9 @@
         color: #fff;
         background-color: #2dcce4;
         border-radius: 5px;
-    }
+    };
+
+    margin: 1rem 0;
     text-align: center;
 }
 

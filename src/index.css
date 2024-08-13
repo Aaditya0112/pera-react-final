@@ -335,7 +335,13 @@ p{
     padding: 5px !important;
   }
 }
-
+@media (max-width: 900px){
+  .nav-link
+  {
+    margin: 5px 0 0 0;
+    padding: 5px !important;
+  }
+}
 @media (min-width: 768px) { /* to be changed wrt third breakpoint*/
   .container-fluid {
       width: fit-content;

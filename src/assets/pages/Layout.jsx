@@ -7,6 +7,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
 const Layout = () => {
+
+    // document.querySelectorAll('.nav-link').forEach((link) => {
+    //     link.addEventListener('click', () => {
+    //         console.log(link);
+    //     })
+    // });
+   
     return (
 
         <>
@@ -45,6 +52,10 @@ const Layout = () => {
           <Nav className="me-auto">
             <Link to="/" className="nav-link"  onClick={
                 () => {
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -53,6 +64,10 @@ const Layout = () => {
             }>Home</Link>
             <Link to="/about" className="nav-link" onClick={
                 () => {
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -62,6 +77,9 @@ const Layout = () => {
             }>About us</Link>
             <Link to="/committee" className="nav-link" onClick={
                 () => {
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -71,6 +89,10 @@ const Layout = () => {
             }>Committee</Link>
             <Link to="/speakers" className="nav-link" onClick={
                 () => {
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -79,6 +101,10 @@ const Layout = () => {
             }>Speakers</Link>
             <Link to="/eventDetails" className="nav-link" onClick={
                 () => {
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -87,6 +113,11 @@ const Layout = () => {
             }>Event Details</Link>
             <Link to="/registration" className="nav-link" onClick={
                 () => {
+
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -95,6 +126,11 @@ const Layout = () => {
             }>Registration</Link>
             <Link to="/studentSupport" className="nav-link" onClick={
                 () => {
+
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -103,6 +139,11 @@ const Layout = () => {
             }>Student Travel Support</Link>
             <Link to="/accomodation" className="nav-link" onClick={
                 () => {
+
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
@@ -111,6 +152,10 @@ const Layout = () => {
             }>Accommodation</Link>
             <Link to="/contact" className="nav-link" onClick={
                 () => {
+
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })

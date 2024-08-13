@@ -29,7 +29,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="about-IITK SBC">
-                    <div className="img h-1/2 w-3/5">
+                    <div className="img w-full lg:h-1/2 w-3/5">
                         <img src={sbc} alt="PES SBC" />
                     </div>
                     <div className="aboutt">
