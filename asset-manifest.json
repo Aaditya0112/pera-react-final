@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.abeb7c8c.css",
-    "main.js": "/static/js/main.2c3ff447.js",
+    "main.css": "/static/css/main.aa0f7578.css",
+    "main.js": "/static/js/main.624ecd6e.js",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
     "static/media/ss.webp": "/static/media/ss.d5184300394f1713279c.webp",
     "static/media/Sandeep_Anand.jpg": "/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
@@ -35,11 +35,11 @@
     "static/media/ieee-up-section-logo.jpg": "/static/media/ieee-up-section-logo.05ab794c361c25c4881e.jpg",
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
-    "main.abeb7c8c.css.map": "/static/css/main.abeb7c8c.css.map",
-    "main.2c3ff447.js.map": "/static/js/main.2c3ff447.js.map"
+    "main.aa0f7578.css.map": "/static/css/main.aa0f7578.css.map",
+    "main.624ecd6e.js.map": "/static/js/main.624ecd6e.js.map"
   },
   "entrypoints": [
-    "static/css/main.abeb7c8c.css",
-    "static/js/main.2c3ff447.js"
+    "static/css/main.aa0f7578.css",
+    "static/js/main.624ecd6e.js"
   ]
 }
