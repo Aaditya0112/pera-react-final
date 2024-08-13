@@ -132,9 +132,13 @@ const Layout = () => {
       </Container>
     </Navbar>
 
+
+
             <Outlet/>
 
-
+    {/* <footer className="footer absolute w-full mt-8 pl-8 bg-black text-white">
+        &copy; 2024 PERA-IITK. All Rights Reserved.
+    </footer> */}
         </>
     )
 };

@@ -1,5 +1,6 @@
 import img from "../images/slide2.jpg";
 import "../stylesheets/About.css";
+import sbc from "../images/SBC.jpg";
 const About = () => {
     return (
         <>
@@ -21,28 +22,28 @@ const About = () => {
                 <div className="about-EE">
                     <div className="aboutt">
                         <h1 className="text-center">Department of Electrical Engineering</h1>
-                        <p className="text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, hic quisquam esse labore suscipit eum ducimus tempora natus reprehenderit autem id fugit quod placeat aliquam nesciunt perspiciatis possimus libero rem?</p>
+                        <p className="text-center"></p>
                     </div>
                     <div className="img">
                         <img src={img} alt="IITK" />
                     </div>
                 </div>
                 <div className="about-IITK SBC">
-                    <div className="img">
-                        <img src={img} alt="PES SBC" />
+                    <div className="img h-1/2 w-3/5">
+                        <img src={sbc} alt="PES SBC" />
                     </div>
                     <div className="aboutt">
-                        <h1 className="text-center">PES Student Branch Chapter</h1>
+                        <h1 className="text-center">PES Student Branch Chapter @IITK</h1>
                         <p className="text-center"></p>
                         <p></p>
                     </div>
 
                 </div>
 
-                <div className="reach-IITK">
+                <div className="reach-IITK justify-center">
                     <div className="aboutt">
                         <h1 className="text-center">How to Reach IITK</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perferendis, hic quisquam esse labore suscipit eum ducimus tempora natus reprehenderit autem id fugit quod placeat aliquam nesciunt perspiciatis possimus libero rem?</p>
+                        <p></p>
                     </div>
                 </div>
             </div>

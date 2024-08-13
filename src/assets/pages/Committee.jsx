@@ -14,7 +14,7 @@ function Committee() {
                 <img src={gmv} alt="Prof"/>
             </div>
             <div className="member-card__info text-center">
-                <h2>Dr. Guru Raj <i style={{fontSize : '24px', color :'#0a66c2', cursor:'pointer'
+                <h2>Dr. Gururaj M V <i style={{fontSize : '24px', color :'#0a66c2', cursor:'pointer'
                 }} class="fa fa-linkedin-square"></i></h2>
                 <div className="designation font-bold text-xl cyan-400">
                     <span>Assistant Professor, IIT Kanpur</span>
