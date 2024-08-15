@@ -17,10 +17,9 @@ function Committee() {
                 <h2>Dr. Gururaj M V <i style={{fontSize : '24px', color :'#0a66c2', cursor:'pointer'
                 }} class="fa fa-linkedin-square"></i></h2>
                 <div className="designation font-bold text-xl cyan-400">
-                    <span>Assistant Professor, IIT Kanpur</span>
-                    <p className='text-base m-0 text-lime-300' style={{color:'#4df3b7'}}>
-                        Branch Chapter Advisor
-                    </p>
+                    <h3 className='text-black text-lg leading-4'> Assistant Professor, IIT Kanpur</h3>
+                    <span>Branch Chapter Advisor</span>
+
                     
                 </div>
                 <p className="mailId m-0">

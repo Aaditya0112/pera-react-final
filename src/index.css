@@ -5,6 +5,13 @@ body{
   font-weight: 800;
   font-style: normal;
 }
+#root{
+  overflow-x: hidden;
+}
+
+.carousel a{
+  display: none;
+}
 .logos{
 
   display: flex;

@@ -4,7 +4,7 @@ import pb from '../images/speakers/Prabodh_Bajpai.jpg';
 import nc from '../images/speakers/Naveen_ChilamKurti.jpg';
 import lb from '../images/speakers/Laxmidhar_Behera.jpg';
 import sm from '../images/speakers/Sukumar_Mishra.jpg';
-import rkb from '../images/speakers/Ranjan_Kumar_Behra.jpg';
+import rkb from '../images/speakers/Ranjan_Kumar_Behra.jpeg';
 import npp from '../images/speakers/NP_Padhy.jpg';
 import sa from '../images/speakers/Sandeep_Anand.jpg';
 import ps from '../images/speakers/Parthasarathi_Sensarma.jpg';

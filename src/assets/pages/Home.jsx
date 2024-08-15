@@ -21,13 +21,13 @@ const Home = () => {
 
       <div className="carouselplay">
         <Carousel>
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={2000}>
             <img src={slide1} alt="" />
           </Carousel.Item>
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={2000}>
             <img src={slide2} alt="" />
           </Carousel.Item>
-          <Carousel.Item interval={1000}>
+          <Carousel.Item interval={2000}>
             <img src={slide3} alt="" />
           </Carousel.Item>
         </Carousel>
@@ -43,7 +43,7 @@ const Home = () => {
           <h5>PERA 2024</h5>
           <p>29 November - 1 December 2024</p>
           <h5>Indian Institute of Technology Kanpur, India</h5>
-          <a href="...">Brochure</a>
+          <a href="" target='_blank' rel='noreferrer'>Brochure</a>
         </div>
       </div>
 

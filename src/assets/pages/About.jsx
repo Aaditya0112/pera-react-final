@@ -1,6 +1,7 @@
 import img from "../images/slide2.jpg";
 import "../stylesheets/About.css";
 import sbc from "../images/SBC.jpg";
+import ScrollReveal from "scrollreveal";
 const About = () => {
     return (
         <>
