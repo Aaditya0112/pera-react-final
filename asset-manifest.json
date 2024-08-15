@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aa0f7578.css",
-    "main.js": "/static/js/main.624ecd6e.js",
+    "main.css": "/static/css/main.1844a4be.css",
+    "main.js": "/static/js/main.23a9a3ee.js",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
     "static/media/ss.webp": "/static/media/ss.d5184300394f1713279c.webp",
     "static/media/Sandeep_Anand.jpg": "/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
@@ -24,6 +24,7 @@
     "static/media/Laxmidhar_Behera.jpg": "/static/media/Laxmidhar_Behera.0fdac02e05eb9e47a3c3.jpg",
     "static/media/Parthasarathi_Sensarma.jpg": "/static/media/Parthasarathi_Sensarma.3106b118b81d19456eeb.jpg",
     "static/media/gmv_sir.webp": "/static/media/gmv_sir.f6ee09854502c896c93b.webp",
+    "static/media/Ranjan_Kumar_Behra.jpeg": "/static/media/Ranjan_Kumar_Behra.f7271b3ccfeef6088ab3.jpeg",
     "static/media/Prabodh_Bajpai.jpg": "/static/media/Prabodh_Bajpai.1c880206c46bc749f0e5.jpg",
     "static/media/tmeic.jpg": "/static/media/tmeic.92b6b02d44003b873bf8.jpg",
     "static/media/ma.webp": "/static/media/ma.730337132ed6997eb58f.webp",
@@ -35,11 +36,11 @@
     "static/media/ieee-up-section-logo.jpg": "/static/media/ieee-up-section-logo.05ab794c361c25c4881e.jpg",
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
-    "main.aa0f7578.css.map": "/static/css/main.aa0f7578.css.map",
-    "main.624ecd6e.js.map": "/static/js/main.624ecd6e.js.map"
+    "main.1844a4be.css.map": "/static/css/main.1844a4be.css.map",
+    "main.23a9a3ee.js.map": "/static/js/main.23a9a3ee.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa0f7578.css",
-    "static/js/main.624ecd6e.js"
+    "static/css/main.1844a4be.css",
+    "static/js/main.23a9a3ee.js"
   ]
 }
