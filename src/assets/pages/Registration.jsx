@@ -40,7 +40,7 @@ const Registration = () => {
                 </table>
 
             </div>
-            <div className="guidelines ">
+            <div className="guidelines flex justify-around">
                 <div >
                     <ul >
                         <li>
