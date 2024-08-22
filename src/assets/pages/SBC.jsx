@@ -1,10 +1,10 @@
 import Accordion from 'react-bootstrap/Accordion';
-import '../stylesheets/committee.css';
+import '../stylesheets/sbc.css';
 import MemberCard from '../components/MemeberCard';
 import Members from '../components/Members';
 import gmv from "../images/Members/gmv_sir.webp"
 
-function Committee() {
+function SBC() {
     return (
         <>
         <div className="currentMemberBox flex flex-col items-center">
@@ -430,4 +430,4 @@ function Committee() {
     );
 }
 
-export default Committee;
+export default SBC;

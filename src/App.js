@@ -5,11 +5,12 @@ import Registration from './assets/pages/Registration';
 import NoPage from './assets/pages/NoPage';
 import ComingSoon from './assets/pages/ComingSoon';
 import SpeakersList from './assets/pages/SpeakersList';
-import Committee from './assets/pages/Committee';
+
 
 // import speaker from './assets/js/speaker.js';
 import { createBrowserRouter,Routes, Route, createRoutesFromElements, RouterProvider, BrowserRouter} from "react-router-dom";
 import Contact from './assets/pages/Contact';
+import SBC from './assets/pages/SBC';
 
 
 
@@ -28,7 +29,8 @@ function App() {
     <Route path="/" element={<Layout />}>
       <Route path='/' element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/committee" element={<Committee />} />
+      <Route path="/committee" element={<ComingSoon />} />
+      <Route path="/sbcMembers" element={<SBC />} />
       <Route path="/speakers" element={<SpeakersList />} />
       <Route path="/eventDetails" element={<ComingSoon />} />
       <Route path="/registration" element={<Registration />} />
