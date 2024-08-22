@@ -14,8 +14,8 @@ const Home = () => {
     <>
 
       <div className="announcement">
-        <a href="...">
-          <h1>Announcement</h1>
+        <a href="/registration">
+          <h1>Registration Open Now!!!</h1>
         </a>
       </div>
 
@@ -155,7 +155,7 @@ const Home = () => {
           iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
         >
-          <h3 className="vertical-timeline-element-title">Registraion Closes</h3>
+          <h3 className="vertical-timeline-element-title">Registration Closes</h3>
 
         </VerticalTimelineElement>
         <VerticalTimelineElement
