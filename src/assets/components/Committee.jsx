@@ -8,7 +8,7 @@ const Committee = () => {
   const data = CommitteeMembers;
 
   return (
-    <div className="p-6">
+    <div>
       <CommitteeSection id = '1' title = 'Advisory' info = {data.advisory}/>
       <CommitteeSection id = '2' title = 'Technical' info = {data.technical}/>
       <CommitteeSection id = '3' title = 'Poster Evaluation' info = {data.posterEvaluation}/>
