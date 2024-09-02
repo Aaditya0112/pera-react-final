@@ -4,6 +4,7 @@ import slide2 from '../images/slide2.jpg';
 import slide3 from '../images/slide3.jpg';
 import Timer from '../components/Timer';
 import SponsorsImg from '../components/SponsorsImg';
+import poster from "../files/PERA 2024 Workshop.pdf"
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -43,7 +44,7 @@ const Home = () => {
           <h5>PERA 2024</h5>
           <p>29 November - 1 December 2024</p>
           <h5>Indian Institute of Technology Kanpur, India</h5>
-          <a href="" target='_blank' rel='noreferrer'>Brochure</a>
+          <a href={poster} target='_blank' rel='noreferrer'>Brochure</a>
         </div>
       </div>
 
@@ -85,7 +86,7 @@ const Home = () => {
             Thus, sustainable and resilient power systems present several opportunities and challenges, such as their design
             and development, control and protection, stability and reliability, operation and planning, from economic, social,
             and environmental perspectives.
-            PERA24 covers the state of the art of several present-day and future challenges and prospects related to grid
+            PERA24 {"(offline event)"} covers the state of the art of several present-day and future challenges and prospects related to grid
             resiliency. This workshop includes expert talks, panel discussions, and demonstrations of various simulators and
             tools from multiple reputed institutes and industries. We invite faculty members, practicing engineers, and
             students from across the globe to participate and benefit from this workshop.  </span><span className="see-more text-red-500 text-xl inline lg:hidden md:hidden" onClick={() => {

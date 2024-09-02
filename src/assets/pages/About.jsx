@@ -41,10 +41,14 @@ const About = () => {
 
                 </div>
 
-                <div className="reach-IITK justify-center">
+                <div className="reach-IITK">
                     <div className="aboutt">
-                        <h1 className="text-center">How to Reach IITK</h1>
-                        <p></p>
+                        <h1 className="text-center text-blue-400">How to Reach IITK</h1>
+                        
+                        <h3>Domestic Train Travel</h3>
+					<p>Train service in India is provided by the Indian Railways and is the most popular form of public transportation. Passenger service in the Indian Railways is divided into several classes, namely, Air Conditioned I (First) class, Air Conditioned II (Two Tier) class, Air Conditioned III (3-tier) class, Air Conditioned Chair Car and Sleeper Class. The Rajdhani and the Shatabdi family of trains are widely regarded as the best trains in India. Train reservations can be made at one of the many Railway reservation counters all over India or over the internet using the Indian Railways e-ticket facility. See the Indian Railways website for further details. For those inexperienced in travelling by the Indian Railways, it is recommended that they travel by one of Air Conditioned I, Air Conditioned II or the Air Condit ioned Chair Car (for Shatabdi trains) classes.</p>
+                    <h3>How to Reach IIT Kanpur from railway station: </h3>
+					<p>IIT Kanpur is located at a distance of about 15 kilometers from the Kanpur Central Railway Station. Please hire Autorickshaw or taxi. Autorickshaw and taxi will be available in Kanpur Railway Station at Exit side of Plateform No. 1. Autorickshaws fare is about Rs. 250-300/- and taxi fare is between Rs 350 to Rs 500 from Central Station to IIT Kanpur Campus. It takes about 40 minutes to drive.</p>
                     </div>
                 </div>
             </div>

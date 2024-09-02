@@ -17,12 +17,12 @@ const Registration = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <td>IEEE PES Student Members</td>
+                            <td>IEEE Student Members</td>
                             <td>&#8377; 2500</td>
                             <td>&#8377; 1500</td>
                         </tr>
                         <tr>
-                            <td>Students Non-members</td>
+                            <td>Non-Student members</td>
                             <td>&#8377; 3000</td>
                             <td>&#8377; 2000</td>
                         </tr>
@@ -32,7 +32,7 @@ const Registration = () => {
                             <td>&#8377; 5000</td>
                         </tr>
                         <tr>
-                            <td>Special Category<br />(Female IEEE PES Student)</td>
+                            <td>Special Category<br />(Female IEEE Student)</td>
                             <td>&#8377; 1000</td>
                             <td>&#8377; 500</td>
                         </tr>
