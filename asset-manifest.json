@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6a20781d.css",
-    "main.js": "/static/js/main.1322f4f7.js",
+    "main.js": "/static/js/main.28df2a12.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
     "static/media/PERA 2024 Workshop.pdf": "/static/media/PERA 2024 Workshop.174ee33c27f1832ace53.pdf",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
@@ -25,7 +25,9 @@
     "static/media/RTDS.jpg": "/static/media/RTDS.33affab2fa93a25bd4ad.jpg",
     "static/media/entuple.jpg": "/static/media/entuple.8c8c3853efd68f6bb0f1.jpg",
     "static/media/iitk_logo.png": "/static/media/iitk_logo.13742586b87ba6b0765b.png",
+    "static/media/shushilKumarSoonee.jpeg": "/static/media/shushilKumarSoonee.cdd3886c4698fd1fe017.jpeg",
     "static/media/Gururaj_MV.jpg": "/static/media/Gururaj_MV.aaab7a958bcd9266d5cb.jpg",
+    "static/media/Rashmi-Prasad.png": "/static/media/Rashmi-Prasad.363489d7dd9a7dc0bb0e.png",
     "static/media/Ebin_Cherian.jpg": "/static/media/Ebin_Cherian.15d1828c9fe58ee23f46.jpg",
     "static/media/hall12.avif": "/static/media/hall12.9ebdb901448a294f601f.avif",
     "static/media/sc.webp": "/static/media/sc.bee4326997df8042d38c.webp",
@@ -41,6 +43,7 @@
     "static/media/Swathi Battula.jpg": "/static/media/Swathi Battula.3cf8c9d902d201fb3349.jpg",
     "static/media/ma.webp": "/static/media/ma.730337132ed6997eb58f.webp",
     "static/media/sv.webp": "/static/media/sv.7afb7be1bfc294581acf.webp",
+    "static/media/Sunil_Dhingra.jpeg": "/static/media/Sunil_Dhingra.5066734c1cae1c24e320.jpeg",
     "static/media/AG.webp": "/static/media/AG.667255595bb1fe8e2d8e.webp",
     "static/media/Typhoon-HIL.webp": "/static/media/Typhoon-HIL.253c48c927d9d661043c.webp",
     "static/media/Ramakrishna_Kappagantu.jpg": "/static/media/Ramakrishna_Kappagantu.f4db5f94b243e2e01070.jpg",
@@ -51,13 +54,14 @@
     "static/media/Suvendu Samanta.jpg": "/static/media/Suvendu Samanta.9aac488783ee68d06e7b.jpg",
     "static/media/SN_Singh.jpg": "/static/media/SN_Singh.26a69c8b4cd65f6eff7d.jpg",
     "static/media/ieee-up-section-logo.jpg": "/static/media/ieee-up-section-logo.05ab794c361c25c4881e.jpg",
+    "static/media/Abhijit_Abhyankar.jpg": "/static/media/Abhijit_Abhyankar.281d7565e3ce7450247b.jpg",
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
     "main.6a20781d.css.map": "/static/css/main.6a20781d.css.map",
-    "main.1322f4f7.js.map": "/static/js/main.1322f4f7.js.map"
+    "main.28df2a12.js.map": "/static/js/main.28df2a12.js.map"
   },
   "entrypoints": [
     "static/css/main.6a20781d.css",
-    "static/js/main.1322f4f7.js"
+    "static/js/main.28df2a12.js"
   ]
 }
