@@ -17,31 +17,31 @@ import as from "../images/Members/Committee/Ankush Sharma.jpg"
 
 const CommitteeMembers = {
     advisory: [
-        { name: 'SC Srivastava' , image: scs },
-        { name: 'Naveen Chilamkurti', image: nc  },
-        { name: 'Laxmidhar Behera', image: lb },
-        { name: 'N. P. Padhy', image: npp },
-        { name: 'Sukumar Mishra', image: sm },
-        { name: 'Ramakrishna Kappagantu', image: rkg }
+        { name: 'Prof. SC Srivastava' , image: scs },
+        { name: 'Prof. Naveen Chilamkurti', image: nc  },
+        { name: 'Prof. Laxmidhar Behera', image: lb },
+        { name: 'Prof. N. P. Padhy', image: npp },
+        { name: 'Prof. Sukumar Mishra', image: sm },
+        { name: 'Prof. Ramakrishna Kappagantu', image: rkg }
   
       ],
       technical: [
-        { name: 'Naveen Chilamkurti', image: nc  },
-        { name: 'Saikat Chakrabarti', image:  sc},
-        { name: 'Abheejeet Mohapatra', image:am  },
-        { name: 'Gururaj Mirle Vishwanath', image: gmvs },
-        { name: 'Suvendu Samanta', image: ss },
-        { name: 'Dr. Amarendra Edpuganti', image:ae  },        
-        { name: 'Dr. Prabodh Bajpai', image: pb },
-        { name: 'Swathi Battula', image:  sb},
-        { name: 'Ankush Sharma', image: as },
+        { name: 'Prof. Naveen Chilamkurti', image: nc  },
+        { name: 'Prof. Saikat Chakrabarti', image:  sc},
+        { name: 'Prof. Abheejeet Mohapatra', image:am  },
+        { name: 'Prof. Gururaj Mirle Vishwanath', image: gmvs },
+        { name: 'Prof. Suvendu Samanta', image: ss },
+        { name: 'Prof. Amarendra Edpuganti', image:ae  },        
+        { name: 'Prof. Prabodh Bajpai', image: pb },
+        { name: 'Prof. Swathi Battula', image:  sb},
+        { name: 'Prof. Ankush Sharma', image: as },
         
         
       ],
       posterEvaluation: [
-        { name: 'Gururaj Mirle Vishwanath', image: gmvs },
-        { name: 'Ebin Cherian Mathew', image: ecm },
-        { name: 'Piyush Kant', image: pk },
+        { name: 'Prof. Gururaj Mirle Vishwanath', image: gmvs },
+        { name: 'Prof. Ebin Cherian Mathew', image: ecm },
+        { name: 'Prof. Piyush Kant', image: pk },
       ]
     };
 

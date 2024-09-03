@@ -14,8 +14,8 @@ function SBC() {
                 <img src={gmv} alt="Prof"/>
             </div>
             <div className="member-card__info text-center">
-                <h2>Dr. Gururaj M V <i style={{fontSize : '24px', color :'#0a66c2', cursor:'pointer'
-                }} class="fa fa-linkedin-square"></i></h2>
+                <h2>Dr. Gururaj M V <a href='https://www.linkedin.com/in/dr-guru-raj-14430723/?originalSubdomain=in' target='_blank'><i style={{fontSize : '24px', color :'#0a66c2', cursor:'pointer'
+                }} class="fa fa-linkedin-square"></i></a></h2>
                 <div className="designation font-bold text-xl cyan-400">
                     <h3 className='text-black text-lg leading-4'> Assistant Professor, IIT Kanpur</h3>
                     <span>Branch Chapter Advisor</span>
@@ -31,7 +31,7 @@ function SBC() {
         </div>
             {/* <MemberCard name = "Dr. Guru Raj" designation = "Assistant Professor, IIT Kanpur" mailId = "gururajmv@iitk.ac.in" img={gmv}/> */}
             <div className="flex flex-col itemscenter lg:grid md:grid w-fit grid-cols-2 justify-items-center">
-            {Members.map((member) => <MemberCard name = {member.name} designation={member.designation} mailId = {member.mailId} img={member.img}/>)}
+            {Members.map((member) => <MemberCard name = {member.name} designation={member.designation} mailId = {member.mailId} img={member.img} linkedIn={member.linkedIn}/>)}
             </div>
         </div>
 

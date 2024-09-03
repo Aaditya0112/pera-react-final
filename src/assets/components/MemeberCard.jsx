@@ -7,7 +7,7 @@ function MemberCard({name, designation, mailId, img, linkedIn}) {
                 <img src={img} alt={name+" image"}/>
             </div>
             <div className="member-card__info text-center">
-                <h3>{name} <a href = {linkedIn}><i style={{fontSize : '24px', color :'#0a66c2', cursor: 'pointer'
+                <h3>{name} <a href = {linkedIn} target="_blank"><i style={{fontSize : '24px', color :'#0a66c2', cursor: 'pointer'
                 }} class="fa fa-linkedin-square" ></i></a></h3>
                 <div className="designation font-bold text-xl cyan-400">
                     {designation}

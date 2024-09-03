@@ -18,10 +18,10 @@ const SpeakersList = () => {
                         <img src={scs} alt="Dr. S C Srivastava" className='rounded'/>
                     </div>
                     <div className="member-card__info text-center align-middle">
-                        <h2>Dr. S C Srivastava </h2>
+                        <h2>Prof. S C Srivastava </h2>
                         <div className="designation  text-xl  align-middle">
                             <h3 className=' text-lg leading-6'> Director, IIT Kanpur-La Trobe University Research Academy, & <br />
-                                Distinguished Visiting Professor</h3>
+                                Distinguished Visiting Professor<br/>Past Director, IIT Kanpur</h3>
                             <p>Department of Electrical Engineering <br/>Indian Institute of Technology, Kanpur</p>
 
 

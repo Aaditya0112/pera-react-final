@@ -22,14 +22,14 @@ const Home = () => {
 
       <div className="carouselplay">
         <Carousel>
-          <Carousel.Item interval={2000}>
+          <Carousel.Item interval={4000}>
             <img src={slide1} alt="" />
           </Carousel.Item>
-          <Carousel.Item interval={2000}>
+          <Carousel.Item interval={4000}>
             <img src={slide2} alt="" />
           </Carousel.Item>
-          <Carousel.Item interval={2000}>
-            <img src={slide3} alt="" />
+          <Carousel.Item interval={4000}>
+            <img src={slide3} alt=""/>
           </Carousel.Item>
         </Carousel>
 
@@ -38,17 +38,82 @@ const Home = () => {
     opacity: 1;
 "><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" role="button" tabindex="0" href="#"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div> */}
         <div className="cap ">
-          <h1>
+          <h1 className=''>
             Power Engineering Research and Applications 2024
           </h1>
           <h5>PERA 2024</h5>
           <p>29 November - 1 December 2024</p>
           <h5>Indian Institute of Technology Kanpur, India</h5>
-          <a href={poster} target='_blank' rel='noreferrer'>Brochure</a>
+          <a href={poster} target='_blank' rel='noreferrer'>Poster</a>
         </div>
       </div>
 
 
+      <VerticalTimeline>
+
+<VerticalTimelineElement
+  className="vertical-timeline-element--work"
+  date="15 Aug 2024"
+  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+>
+  <h3 className="vertical-timeline-element-title">Registration Begins</h3>
+</VerticalTimelineElement>
+<VerticalTimelineElement
+  className="vertical-timeline-element--work"
+  date="30 Sep 2024"
+  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+>
+  <h3 className="vertical-timeline-element-title">Registration Closes</h3>
+
+</VerticalTimelineElement>
+<VerticalTimelineElement
+  className="vertical-timeline-element--work"
+  date="30 Nov 2024"
+  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+
+>
+  <h3 className="vertical-timeline-element-title">Workshop Begins</h3>
+</VerticalTimelineElement>
+{/* <VerticalTimelineElement
+className="vertical-timeline-element--education"
+date="dd/mm/yyyy"
+iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+
+>
+<h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
+<h4 className="vertical-timeline-element-subtitle">Online Course</h4>
+<p>
+Strategy, Social Media
+</p>
+</VerticalTimelineElement>
+<VerticalTimelineElement
+className="vertical-timeline-element--education"
+date="dd/mm/yyyy"
+iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+
+>
+<h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
+<h4 className="vertical-timeline-element-subtitle">Certification</h4>
+<p>
+Creative Direction, User Experience, Visual Design
+</p>
+</VerticalTimelineElement> */}
+{/* <VerticalTimelineElement
+className="vertical-timeline-element--education"
+date="dd/mm/yyyy"
+iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+
+>
+<h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
+<h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
+<p>
+Creative Direction, Visual Design
+</p>
+</VerticalTimelineElement> */}
+
+</VerticalTimeline>
 
       {/* PERA Sponsors */}
 
@@ -140,71 +205,7 @@ const Home = () => {
         </p>
       </div>
 
-      <VerticalTimeline>
-
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="15 Aug 2024"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
-        >
-          <h3 className="vertical-timeline-element-title">Registration Begins</h3>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="30 Sep 2024"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
-        >
-          <h3 className="vertical-timeline-element-title">Registration Closes</h3>
-
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="30 Nov 2024"
-          iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-
-        >
-          <h3 className="vertical-timeline-element-title">Workshop Begins</h3>
-        </VerticalTimelineElement>
-        {/* <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="dd/mm/yyyy"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    
-  >
-    <h3 className="vertical-timeline-element-title">Content Marketing for Web, Mobile and Social Media</h3>
-    <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
-    <p>
-      Strategy, Social Media
-    </p>
-  </VerticalTimelineElement>
-  <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="dd/mm/yyyy"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    
-  >
-    <h3 className="vertical-timeline-element-title">Agile Development Scrum Master</h3>
-    <h4 className="vertical-timeline-element-subtitle">Certification</h4>
-    <p>
-      Creative Direction, User Experience, Visual Design
-    </p>
-  </VerticalTimelineElement> */}
-        {/* <VerticalTimelineElement
-    className="vertical-timeline-element--education"
-    date="dd/mm/yyyy"
-    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-    
-  >
-    <h3 className="vertical-timeline-element-title">Bachelor of Science in Interactive Digital Media Visual Imaging</h3>
-    <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
-    <p>
-      Creative Direction, Visual Design
-    </p>
-  </VerticalTimelineElement> */}
-
-      </VerticalTimeline>
+      
       <div className="countdown">
         <Timer eventDate={eventDate} />
       </div>
