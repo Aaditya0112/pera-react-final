@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6a20781d.css",
-    "main.js": "/static/js/main.28df2a12.js",
+    "main.js": "/static/js/main.29e5fc64.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
     "static/media/PERA 2024 Workshop.pdf": "/static/media/PERA 2024 Workshop.174ee33c27f1832ace53.pdf",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
@@ -58,10 +58,10 @@
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
     "main.6a20781d.css.map": "/static/css/main.6a20781d.css.map",
-    "main.28df2a12.js.map": "/static/js/main.28df2a12.js.map"
+    "main.29e5fc64.js.map": "/static/js/main.29e5fc64.js.map"
   },
   "entrypoints": [
     "static/css/main.6a20781d.css",
-    "static/js/main.28df2a12.js"
+    "static/js/main.29e5fc64.js"
   ]
 }
