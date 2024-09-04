@@ -9,11 +9,13 @@ const SpeakersList = () => {
     return (<>
         <div className="keySpeaker flex justify-center ">
 
-            <div className="member-card text-white  w-4/5 flex flex-col lg:flex-row bg-gradient-to-br from-blue-500 to-blue-100  lg:w-3/5 items-center justify-evenly rounded-xl  lg:flex-col  shadow-xl p-2 m-8 ">
-                <div className="title text-white py-2 underline  text-4xl mb-4">
+            <div className="member-card text-white  w-4/5 flex flex-col lg:flex-row bg-gradient-to-br from-purple-400 to-blue-100  lg:w-3/5 items-center justify-evenly rounded-xl  lg:flex-col  shadow-xl m-8 ">
+                
+                <div className="title text-pink-500 font-bold text-center py-3 w-full text-4xl mb-4 rounded">
                     Keynote Speaker
                 </div>
-                <div className="content flex flex-col lg:flex-row w-full justify-around items-center">
+                
+                <div className="content flex p-2 flex-col lg:flex-row w-full justify-around items-center">
                     <div className="line flex  member-card__image h- w-56 lg:mr-6 mb-3 "  >
                         <img src={scs} alt="Dr. S C Srivastava" className='rounded'/>
 
@@ -21,7 +23,7 @@ const SpeakersList = () => {
                     <div className="member-card__info text-center align-middle">
                         <h2>Prof. S C Srivastava </h2>
                         <div className="designation  text-xl  align-middle">
-                            <h3 className=' text-lg leading-6'> Past Director, IIT Kanpur-La Trobe University Research Academy, & <br />
+                            <h3 className=' text-lg leading-6'> Past Director, IIT Kanpur-La Trobe University Research Academy <br/> & <br />
                                 Distinguished Visiting Professor</h3>
                             <p>Department of Electrical Engineering <br/>Indian Institute of Technology, Kanpur</p>
 

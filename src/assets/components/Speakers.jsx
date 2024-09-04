@@ -12,6 +12,7 @@ import aa from "../images/speakers/Abhijit_Abhyankar.jpg"
 import sks from "../images/speakers/shushilKumarSoonee.jpeg"
 import rp from "../images/speakers/Rashmi-Prasad.png"
 import sd from "../images/speakers/Sunil_Dhingra.jpeg"
+import sb from "../images/speakers/Silpa_Babu.jpg"
 
 const Speakers = [
     {
@@ -79,19 +80,26 @@ const Speakers = [
         imageSrc: rkb,
     },
     {
+        
+        title: 'Ms. Silpa Babu',
+        description: 'Freelancer',
+        bio: "Silpa is an accomplished professional with over 24 years of experience in renewable energy, specialising in the engineering of utility scale and rooftop solar plants, technical due diligence, sustainability, feasibility studies, energy and bankability assessments and strategic planning. She has held different positions in the Advisory, Developer, EPC and Manufacturing sectors, working for companies such as DNV, Cleanmax Solar, juwi India, TATA Power Solar and ABB. She has advised many Indian and international financial institutions and investors for over 35000 MW of solar assets.",
+        imageSrc: sb,
+    },
+    {
 
         title: 'Mr. Sunil Dhingra',
         description: 'Director, Bio Trend Energy',
         bio:"He has worked for over thirty two years in renewable energy including biomass and waste to energy, Solar and hybrid energy solutions, distributed generation, decentralized energy and environment sectors and allied areas. Specializes in the field of renewable energy and development, especially focusing on clean biomass and waste to energy based thermal energy solutions (gasification, combustion, torrefaction/pyrolysis, anaerobic digestion) for fuels/power cooling/drying and heat solutions and policy areas, including agriculture, industries, transport, commercial and rural sectors.",
         imageSrc: sd,
     },
-    // {
+    {
         
-    //     title: 'Prof. Rashmi Prasad',
-    //     description: 'NIT Rourkela',
-    //     bio:"",
-    //     imageSrc: rp,
-    // },
+        title: 'Prof. Rashmi Prasad',
+        description: 'NIT Rourkela',
+        bio:"Dr. Rashmi Prasad (Member, IEEE) received her B.Tech. degree in Electrical and Electronics Engineering from Biju Patnaik University of Technology in 2014, and M.Tech. degree from the Indian Institute of Technology (Indian School of Mines), Dhanbad, in 2017. Her doctoral thesis was quantification of System Inertia, which was done in Real time simulation laboratory in Electrical Engineering Department of Indian Institute of Technology Roorkee, 2023. She was a guest researcher with The Department of Wind and Energy System, Technical University of Denmark in 2023. For one year till July 2024, she had been working as a Postdoc Researcher at TU Delft, The Netherlands. She has been awarded Grid India Power System Award under outstanding Doctoral Research category by Grid controller of India and FITT. She has published her work in IEEE Transactions and IEEE Conferences. In August 2024, Dr. Rashmi joined as assistant professor in Electrical Department at NIT Rourkela. Her research interests include power system dynamics, stability, frequency regulation, power electronics applications to Power Systems. She has worked on the  modelling, control and operation, of large power grid on real-time simulators like RTDS, and software like MATLAB, EMTP, Julia, Python and STEPSS for the integration of voltage source converters.",
+        imageSrc: rp,
+    },
 
     {
         
