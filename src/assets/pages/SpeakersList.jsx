@@ -23,7 +23,7 @@ const SpeakersList = () => {
                     <div className="member-card__info text-center align-middle">
                         <h2>Prof. S C Srivastava </h2>
                         <div className="designation  text-xl  align-middle">
-                            <h3 className=' text-lg leading-6'> Past Director, IIT Kanpur-La Trobe University Research Academy <br/> & <br />
+                            <h3 className=' text-lg leading-6'>Former Director, IIT Kanpur-La Trobe University Research Academy <br/> & <br />
                                 Distinguished Visiting Professor</h3>
                             <p>Department of Electrical Engineering <br/>Indian Institute of Technology, Kanpur</p>
 

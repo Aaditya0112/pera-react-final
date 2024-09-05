@@ -38,12 +38,12 @@ const Home = () => {
     opacity: 1;
 "><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" role="button" tabindex="0" href="#"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div> */}
         <div className="cap ">
-          <h1 className=''>
+          <h1>
             Power Engineering Research and Applications 2024
           </h1>
           <h5>PERA 2024</h5>
           <p>29 November - 1 December 2024</p>
-          <h5>Indian Institute of Technology Kanpur, India</h5>
+          <h5>Indian Institute of Technology Kanpur, India</h5>         
           <a href={poster} target='_blank' rel='noreferrer'>Poster</a>
         </div>
       </div>

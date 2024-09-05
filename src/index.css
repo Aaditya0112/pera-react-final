@@ -1,12 +1,16 @@
 body{
   width: 100%;
+  height: auto !important;
+  min-height: 100vh !important;
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
+  position: relative;
 }
 #root{
   overflow-x: hidden;
+  padding-bottom: 5%;
 }
 
 .carousel a{
@@ -77,6 +81,7 @@ body{
   background: #0000004d ;
   width: 100%;
   color: white;
+  animation: fadein 4s ease;
 }
 
 .cap a{
@@ -312,6 +317,9 @@ p{
 } */
 
 @media (max-width : 450px){
+  #root{
+    padding-bottom: 16%;
+  }
   .logos img{
       width: fit-content;
       height: 60px;
@@ -374,7 +382,17 @@ p{
 
 
 
+@keyframes fadein {
+  0%{
+      opacity : 0;
+  }
 
+
+  100%{
+      opacity : 1;
+  }
+  
+}
 
 
 

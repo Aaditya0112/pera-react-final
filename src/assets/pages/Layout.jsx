@@ -193,9 +193,9 @@ const Layout = () => {
 
             <Outlet/>
 
-    {/* <footer className="footer absolute w-full mt-8 pl-8 bg-black text-white">
+    <footer className="footer text-center text-lg absolute bottom-0 w-full py-3 bg-gradient-to-b from-white to-gray-400  text-yellow-600">
         &copy; 2024 PERA-IITK. All Rights Reserved.
-    </footer> */}
+    </footer>
         </>
     )
 };
