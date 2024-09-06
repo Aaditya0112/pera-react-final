@@ -17,7 +17,7 @@ import as from "../images/Members/Committee/Ankush Sharma.jpg"
 
 const CommitteeMembers = {
     advisory: [
-        { name: 'Prof. SC Srivastava' , image: scs },
+        { name: 'Prof. S C Srivastava' , image: scs },
         { name: 'Prof. Naveen Chilamkurti', image: nc  },
         { name: 'Prof. Laxmidhar Behera', image: lb },
         { name: 'Prof. N. P. Padhy', image: npp },

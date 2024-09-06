@@ -5,7 +5,7 @@ import scs from "../images/Members/Committee/SC-srivastava.jpg"
 import speaker from '../js/speaker.js';
 import "../stylesheets/speaker.css"
 const SpeakersList = () => {
-    let bio = "S. C. Srivastava received the Ph.D. degree in electrical engineering from the Indian Institute of Technology Delhi, New Delhi, India, in 1987.,He was a Professor with the Department of Electrical Engineering, Indian Institute of Technology Kanpur, Kanpur, India, till 2020, and is currently continuing as the Director of IIT Kanpur-LaTrobe University Research Academy and a Distinguished Visiting Professor. His research interests include power system stability and security analysis, synchrophasor applications, power system restructuring and ac/dc microgrids, and smart grids."
+    let bio = "S. C. Srivastava received the Ph.D. degree in electrical engineering from the Indian Institute of Technology Delhi, New Delhi, India, in 1987. He was a Professor with the Department of Electrical Engineering, Indian Institute of Technology Kanpur, Kanpur, India, till 2020, and former Director of IIT Kanpur-LaTrobe University Research Academy and a Distinguished Visiting Professor. His research interests include power system stability and security analysis, synchrophasor applications, power system restructuring and ac/dc microgrids, and smart grids."
     return (<>
         <div className="keySpeaker flex justify-center ">
 
@@ -25,7 +25,7 @@ const SpeakersList = () => {
                         <div className="designation  text-xl  align-middle">
                             <h3 className=' text-lg leading-6'>Former Director, IIT Kanpur-La Trobe University Research Academy <br/> & <br />
                                 Distinguished Visiting Professor</h3>
-                            <p>Department of Electrical Engineering <br/>Indian Institute of Technology, Kanpur</p>
+                            <p>Department of Electrical Engineering <br/>Indian Institute of Technology Kanpur</p>
 
 
                         </div>
@@ -59,6 +59,14 @@ const SpeakersList = () => {
             }}>&#10006;</button>
 
         </div>
+        {/* <div className="mb-8 mt-5 flex flex-col items-center ">
+                <h2 className="text-2xl text-white text-center font-bold mb-4 bg-gradient-to-r from-blue-500 to-red-100 p-2 w-4/5">Penalists</h2>
+                <div className=" grid grid-cols-2 justify-evenly lg:grid-cols-3 flex-row flex-wrap gap-8 lg:w-3/5">
+                    {info.map((item, index) => (
+                        <Card key={index} name={item.name} image={item.image} />
+                    ))}
+                </div>
+            </div> */}
         <div className="layer">
 
         </div>

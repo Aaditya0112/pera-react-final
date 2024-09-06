@@ -4,7 +4,7 @@ import slide2 from '../images/slide2.jpg';
 import slide3 from '../images/slide3.jpg';
 import Timer from '../components/Timer';
 import SponsorsImg from '../components/SponsorsImg';
-import poster from "../files/PERA 2024 Workshop.pdf"
+import poster from "../files/poster.jpg"
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
@@ -16,7 +16,7 @@ const Home = () => {
 
       <div className="announcement">
         <a href="/registration">
-          <h1>Registration Open Now!!!</h1>
+          <h1>Registration Open Now!!! Limited Travel Support, Hurry Up!!!</h1>
         </a>
       </div>
 
@@ -42,6 +42,9 @@ const Home = () => {
             Power Engineering Research and Applications 2024
           </h1>
           <h5>PERA 2024</h5>
+          
+          <h4 className='text-blue-400 font-bold'>"Empowering a Sustainable Future: Resilient
+          Renewable Energy and Electric Mobility"</h4>
           <p>29 November - 1 December 2024</p>
           <h5>Indian Institute of Technology Kanpur, India</h5>         
           <a href={poster} target='_blank' rel='noreferrer'>Poster</a>

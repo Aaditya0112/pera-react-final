@@ -16,7 +16,7 @@ import sb from "../images/speakers/Silpa_Babu.jpg"
 
 const Speakers = [
     {
-        title: 'Prof. Abhijit Abhyankar',
+        title: 'Prof. Abhijit R. Abhyankar',
         description: 'IIT Delhi',
         bio:"Abhijit R. Abhyankar (PhD) is a Professor of Electrical Engineering Department at Indian Institute of Technology Delhi, New Delhi, India. He received PhD from IIT Bombay in 2007. He was a member of Global Future Council on Clean Electrification of World Economic Forum. He has acted as expert member of various committees established by the Central Electricity Regulatory Commission (CERC) to provide technical support to resolve regulatory issues. He was a member of National Reliability Council for Electricity (NRCE), set-up by Ministry of Power, Government of India, through Central Electricity Authority (CEA). He was also a member of Taskforce on PoC Transmission Pricing Review, constituted by Central Electricity Regulatory Commission (CERC), New Delhi. He has handled important projects and done consultancies for various government and private organizations. Recipient of ‘Teaching excellence award’ at IIT Delhi, he has co- developed an NPTEL web course titled – ‘Restructured Power Systems’.",
         imageSrc: aa,
@@ -24,13 +24,13 @@ const Speakers = [
     {
         title: 'Prof. Laxmidhar Behera',
         description: 'Director, IIT Mandi',
-        bio:"Laxmidhar Behera (Senior Member, IEEE) received the B.Sc. Eng. and M.Sc. Eng. degrees from REC Rourkela in 1988 and 1990, respectively, and the Ph.D. degree from IIT Delhi in 1997. He has supervised 24 Ph.D. students to completion. Besides, he has supervised more than 70 masters’ dissertations. He is currently working as the Director at IIT Mandi on deputation, IIT Kanpur. He is also the Distinguished Alumnus at NIT Rourkela. He has published three graduate level text books, 112 peer reviewed journal papers, 215 papers in conference proceedings and 17 book chapters. His research interests include intelligent control, cognitive robotics, brain computer interface, and indian knowledge systems. He is currently serves as the Associate Editor of IEEE Transaction Systems, Man and Cybernetics: Systems. He is a fellow of INAE.",
+        bio:"Laxmidhar Behera (Senior Member, IEEE) received the B.Sc. Eng. and M.Sc. Eng. degrees from REC Rourkela in 1988 and 1990, respectively, and the Ph.D. degree from IIT Delhi in 1997. He has supervised 24 Ph.D. students to completion. Besides, he has supervised more than 70 masters’ dissertations. He is currently working as the Director at IIT Mandi, on deputation from IIT Kanpur. He is also the Distinguished Alumnus at NIT Rourkela. He has published three graduate level text books, 112 peer reviewed journal papers, 215 papers in conference proceedings and 17 book chapters. His research interests include intelligent control, cognitive robotics, brain computer interface, and indian knowledge systems. He is currently serves as the Associate Editor of IEEE Transaction Systems, Man and Cybernetics: Systems. He is a fellow of INAE.",
         imageSrc: lb,
     },
     {
 
         title: 'Prof. Naveen Chilamkurti',
-        description: 'La trobe University, Melbourne, Australia',
+        description: 'La Trobe University, Melbourne, Australia',
         bio:"Prof. Naveen Chilamkurti  is currently acting Head of Cybersecurity Discipline La Trobe University, Computer Science and Information Technology, Melbourne, Australia. He is also the Director, La Trobe Cybersecurity Research Hub La Trobe University, Melbourne, Computer Science and IT, Melbourne, Australia. He obtained his Ph.D. degree from La Trobe University. He is also the Inaugural Editor-in-Chief for the International Journal of Wireless Networks and Broadband Technologies. He is currently serving as a Technical Editor for IEEE Wireless Communications and IEEE Communications Magazine. He has published about 190 journal and conference papers. His current research areas include cybersecurity, IDS, authentication, wireless sensor networks, and more.",
         imageSrc: nc,
     },
@@ -38,7 +38,7 @@ const Speakers = [
 
         title: 'Mr. Sushil Kumar Soonee',
         description: 'Advisor, grid-India   ',
-        bio:"He specializes in Power System Operation, Planning, Commercial, Settlement, Restoration and entire gamut of Power Pooling and Governance. Other areas of interest include Electricity Markets, Open Access, Regulatory affairs besides expertise in Load Despatch Technology integration of Renewable Energy including REC Mechanism, Transmission Pricing and development of Ancillary Services., SCED etc. He is a Life Fellow of Institution of Engineers (India) , Fellow of IEEE, Distinguished Alumnus IIT Kharagpur, Distinguished Member CIGRE , Fellow INAE , International Member NAE , USA .He is a Life Fellow of Institution of Engineers (India) , Fellow of IEEE, Distinguished Alumnus IIT Kharagpur, Distinguished Member CIGRE , Fellow INAE , International Member NAE , USA. 						",
+        bio:"He specializes in Power System Operation, Planning, Commercial, Settlement, Restoration and entire gamut of Power Pooling and Governance. Other areas of interest include Electricity Markets, Open Access, Regulatory affairs besides expertise in Load Despatch Technology integration of Renewable Energy including REC Mechanism, Transmission Pricing and development of Ancillary Services, SCED etc. He is a Life Fellow of Institution of Engineers (India) , Fellow of IEEE, Distinguished Alumnus IIT Kharagpur, Distinguished Member CIGRE , Fellow INAE , International Member NAE , USA .",
         imageSrc: sks,
     },
 
@@ -69,7 +69,7 @@ const Speakers = [
         
         title: " Prof. Premlata Jena",
         description: "IIT Roorkee",
-        bio:"Prof. Premalata Jena (Senior Member, IEEE) received the B.Tech. degree in electrical engineering from Utkal University, Odisha, India, in 2001, and the M.Tech. and Ph.D. degrees in power system engineering from the Department of Electrical Engineering, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, India, in 2006 and 2011, respectively.,Since 2012, she has been an Assistant Professor with the Department of Electrical Engineering, IIT Roorkee, Roorkee, India, where she is currently an Associate Professor with the Department of Electrical Engineering. Her research interests include power system protection, microgrid protection, and issues due to the integration of renewables with the existing power grid.,Dr. Jena was the recipient of the SERB-POWER Fellowship-2022 from SERB, New Delhi, the Women Excellence Award-2017 from DST, New Delhi, the Young Engineer Award, Indian National Academy of Engineering, and the POSOCO Power System Award, Power Grid Corporation of India Ltd., India, in 2013.",
+        bio:"Prof. Premalata Jena (Senior Member, IEEE) received the B.Tech. degree in electrical engineering from Utkal University, Odisha, India, in 2001, and the M.Tech. and Ph.D. degrees in power system engineering from the Department of Electrical Engineering, Indian Institute of Technology (IIT) Kharagpur, Kharagpur, India, in 2006 and 2011, respectively. Since 2012, she has been an Assistant Professor with the Department of Electrical Engineering, IIT Roorkee, Roorkee, India, where she is currently an Associate Professor with the Department of Electrical Engineering. Her research interests include power system protection, microgrid protection, and issues due to the integration of renewables with the existing power grid. Dr. Jena was the recipient of the SERB-POWER Fellowship-2022 from SERB, New Delhi, the Women Excellence Award-2017 from DST, New Delhi, the Young Engineer Award, Indian National Academy of Engineering, and the POSOCO Power System Award, Power Grid Corporation of India Ltd., India, in 2013.",
         imageSrc: pj,
     },
     {
@@ -120,7 +120,7 @@ const Speakers = [
         
         title: 'Prof. Sandeep Anand',
         description: 'IIT Bombay',
-        bio:"Prof. Sandeep Aanand is a faculty member in the Department of Electrical Engineering, IIT Bombay, India. Before this, he was at IITK, during 2013-2020. He was also a visiting scholar at WSU, Pullman, US, and Queen's University, Kingston, CA during Summer 2018 and Winter 2018, respectively. During 2012-13, he worked at Cosmic Circuits Pvt. Ltd., Bangalore on new product development for solar PV systems. During 2007-08, he  worked at Emerson Network Power India (Now Vertiv Co), Mumbai on the development of digital controllers for medium power online UPS systems. He  received his Ph.D. and B.Tech degrees in EE from IITB in 2013 and 2007, respectively. His research area include  Electric Vehicles Drive Train and Chargers, Wide Bandgap Devices (GaN and SiC) based Power Converters, Circuits for Interfacing Alternate Sources (Solar PV, Battery, Fuel Cells), and Reliability of Power Electronic Circuits.",
+        bio:"Prof. Sandeep Aanand is a faculty member in the Department of Electrical Engineering, IIT Bombay, India. Before this, he was at IITK, during 2013-2020. He was also a visiting scholar at WSU, Pullman, US, and Queen's University, Kingston, CA during Summer 2018 and Winter 2018, respectively. During 2012-13, he worked at Cosmic Circuits Pvt. Ltd., Bangalore on new product development for solar PV systems. During 2007-08, he  worked at Emerson Network Power India (Now Vertiv Co), Mumbai on the development of digital controllers for medium power online UPS systems. He  received his B.Tech and Ph.D. degrees in EE from IITB in 2007 and 2013, respectively. His research area include  Electric Vehicles Drive Train and Chargers, Wide Bandgap Devices (GaN and SiC) based Power Converters, Circuits for Interfacing Alternate Sources (Solar PV, Battery, Fuel Cells), and Reliability of Power Electronic Circuits.",
         imageSrc: sa
     },
 

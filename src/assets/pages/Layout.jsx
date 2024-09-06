@@ -74,7 +74,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[1].classList.add('activeTab');
                     
                 }
-            }>About us</Link>
+            }>About Us</Link>
             <Link to="/committee" className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){

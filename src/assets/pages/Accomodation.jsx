@@ -8,7 +8,7 @@ const Accomodation = () => {
         <>
         <ul className="list-disc">
             <li>
-            <p> <span className="text-xl underline decoration-double font-bold">For Faculties/Industry Officials</span> : Accomodation is arranged at the Visitor's Hall I and II.
+            <p> <span className="text-xl underline decoration-double font-bold">For Faculties/Industry Officials</span> : Accomodation is arranged at the Visitor's Hostel I and II.
                 <div className="flex flex-col lg:flex-row h-fit w-full justify-evenly">
                     <div className="img1 p-2 m-2"><img src= {vhp1} className="h-64 w-fit"/></div>
                     <div className="img2 p-2 m-2    "><img src= {vhp2} className="h-64 "/></div>

@@ -3,6 +3,7 @@ import RTDS from '../images/RTDS.jpg';
 import tmeic from '../images/tmeic.jpg';
 import Typhoon from '../images/Typhoon-HIL.webp';
 import ieeeup from '../images/ieee-up-section-logo.jpg';
+import upn from "../images/upneda.png";
 const SponsorsImg = [
     {
         id : 1,
@@ -27,6 +28,10 @@ const SponsorsImg = [
     {
         id : 5,
         image: ieeeup
+    },
+    {
+        id : 6,
+        image: upn
     }
 
 ]

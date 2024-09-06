@@ -42,13 +42,15 @@
     text-align: center;
     padding: 1rem 1rem;
     box-shadow: 2px 2px 9px 1px;
+    padding:2rem;
 }
 
 .aboutt{
-    h3,p{
-        text-align: start;
+    p{
+        text-align: justify;
     }
     h3{
+        text-align: start;
         color:rgb(103, 102, 102)
     }
 }
