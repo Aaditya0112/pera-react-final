@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c8f40ff8.css",
-    "main.js": "/static/js/main.da7fa8da.js",
+    "main.css": "/static/css/main.26e71285.css",
+    "main.js": "/static/js/main.09ac025f.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
-    "static/media/PERA 2024 Workshop.pdf": "/static/media/PERA 2024 Workshop.174ee33c27f1832ace53.pdf",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
+    "static/media/poster.jpg": "/static/media/poster.abe8ac0cf7f8b1b4853d.jpg",
     "static/media/ss.webp": "/static/media/ss.d5184300394f1713279c.webp",
     "static/media/Sandeep_Anand.jpg": "/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
     "static/media/gr.webp": "/static/media/gr.4db4b00391765107889b.webp",
@@ -56,13 +56,14 @@
     "static/media/SN_Singh.jpg": "/static/media/SN_Singh.26a69c8b4cd65f6eff7d.jpg",
     "static/media/ieee-up-section-logo.jpg": "/static/media/ieee-up-section-logo.05ab794c361c25c4881e.jpg",
     "static/media/Abhijit_Abhyankar.jpg": "/static/media/Abhijit_Abhyankar.281d7565e3ce7450247b.jpg",
+    "static/media/upneda.png": "/static/media/upneda.728fb85d367165f4a34e.png",
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
-    "main.c8f40ff8.css.map": "/static/css/main.c8f40ff8.css.map",
-    "main.da7fa8da.js.map": "/static/js/main.da7fa8da.js.map"
+    "main.26e71285.css.map": "/static/css/main.26e71285.css.map",
+    "main.09ac025f.js.map": "/static/js/main.09ac025f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8f40ff8.css",
-    "static/js/main.da7fa8da.js"
+    "static/css/main.26e71285.css",
+    "static/js/main.09ac025f.js"
   ]
 }
