@@ -38,16 +38,16 @@ const Home = () => {
     opacity: 1;
 "><span aria-hidden="true" class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" role="button" tabindex="0" href="#"><span aria-hidden="true" class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div> */}
         <div className="cap ">
-          <h1>
+          <h1 className='text-lg lg:text-4xl'>
             Power Engineering Research and Applications 2024
           </h1>
-          <h5>PERA 2024</h5>
+          <h5 className='text-sm lg:text-xl'>PERA 2024</h5>
           
-          <h4 className='text-blue-400 font-bold'>"Empowering a Sustainable Future: Resilient
+          <h4 className='text-blue-400 font-bold text-base lg:text-2xl'>"Empowering a Sustainable Future: Resilient
           Renewable Energy and Electric Mobility"</h4>
-          <p>29 November - 1 December 2024</p>
-          <h5>Indian Institute of Technology Kanpur, India</h5>         
-          <a href={poster} target='_blank' rel='noreferrer'>Poster</a>
+          <p className='text-sm lg:text-xl'>29 November - 1 December 2024</p>
+          <h5 className='text-base lg:text-xl'>Indian Institute of Technology Kanpur, India</h5>         
+          <a href={poster} target='_blank' rel='noreferrer' className='text-sm lg:text-base'>Poster</a>
         </div>
       </div>
 
@@ -149,7 +149,7 @@ Creative Direction, Visual Design
           The focus on clean energy has led to a shift towards the need for a sustainable and resilient power system. The
           sustainable power system has its own challenges because of the intermittencies in renewable energy sources. It
           causes various power system dynamics and transients, which affect the system's performance. Such unplanned
-          scenarios need to be addressed for a robust power system operation. Further, resilient power<span className="more hidden lg:block md:block"> systems should be
+          scenarios need to be addressed for a robust power system operation. Further, resilient power<span className=" more hidden lg:inline md:inline"> systems should be
             able to restrict the extent, severity, and duration of system degradation following any extreme events.
             Thus, sustainable and resilient power systems present several opportunities and challenges, such as their design
             and development, control and protection, stability and reliability, operation and planning, from economic, social,

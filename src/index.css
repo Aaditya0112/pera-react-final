@@ -103,6 +103,7 @@ body{
 } */
 
 .announcement{
+  
   animation: ticker 7s linear infinite;
   color: tomato;
   /* min-height: 20%; */
@@ -321,6 +322,9 @@ p{
 @media (max-width : 450px){
   #root{
     padding-bottom: 16%;
+  }
+  .announcement{
+    width: 250vw;
   }
   .logos img{
       width: fit-content;

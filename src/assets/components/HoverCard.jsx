@@ -18,7 +18,7 @@ const HoverCard = (props) => {
           
           <img className="w-56 h-56 object-cover object-center rounded-full" src={imageSrc} alt={title} />
           <h2 className="font-bold text-xl mb-2">{title}</h2>
-          <p>{description}</p>
+          <p className='role text-sm'>{description}</p>
           <button className="infoButton bg-white text-indigo-500 px-4 py-2 rounded-full" onClick ={() => {
             document.querySelector('.infoBox').style.display = 'block';
             document.querySelector('.layer').classList.toggle('activeL');

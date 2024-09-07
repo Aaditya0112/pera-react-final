@@ -13,8 +13,19 @@ import sks from "../images/speakers/shushilKumarSoonee.jpeg"
 import rp from "../images/speakers/Rashmi-Prasad.png"
 import sd from "../images/speakers/Sunil_Dhingra.jpeg"
 import sb from "../images/speakers/Silpa_Babu.jpg"
+import scs from "../images/Members/Committee/SC-srivastava.jpg"
+import gmvs from "../images/Members/Committee/Gururaj_MV.jpg"
+
+
+import am from "../images/Members/Committee/Abheejeet Mohapatra.jpg"
 
 const Speakers = [
+    {
+        title: 'Prof. S C Srivastava',
+        description: 'Former Director, IIT Kanpur-La Trobe University Research Academy',
+        bio:"S. C. Srivastava received the Ph.D. degree in electrical engineering from the Indian Institute of Technology Delhi, New Delhi, India, in 1987. He was a Professor with the Department of Electrical Engineering, Indian Institute of Technology Kanpur, Kanpur, India, till 2020, and former Director of IIT Kanpur-LaTrobe University Research Academy and a Distinguished Visiting Professor. His research interests include power system stability and security analysis, synchrophasor applications, power system restructuring and ac/dc microgrids, and smart grids.",
+        imageSrc: scs,
+    },
     {
         title: 'Prof. Abhijit R. Abhyankar',
         description: 'IIT Delhi',
@@ -41,7 +52,12 @@ const Speakers = [
         bio:"He specializes in Power System Operation, Planning, Commercial, Settlement, Restoration and entire gamut of Power Pooling and Governance. Other areas of interest include Electricity Markets, Open Access, Regulatory affairs besides expertise in Load Despatch Technology integration of Renewable Energy including REC Mechanism, Transmission Pricing and development of Ancillary Services, SCED etc. He is a Life Fellow of Institution of Engineers (India) , Fellow of IEEE, Distinguished Alumnus IIT Kharagpur, Distinguished Member CIGRE , Fellow INAE , International Member NAE , USA .",
         imageSrc: sks,
     },
-
+    {
+        title: 'Prof. Gururaj M V',
+        description :'IIT Kanpur',
+        bio : '',
+        imageSrc: gmvs,
+    },
    
     	
     {
@@ -51,6 +67,7 @@ const Speakers = [
         bio:"Dr. Narayana Prasad Padhy, Chairperson (I/C), Board of Governors MNIT Jaipur, Director, MNIT Jaipur and Director, IIIT Kota, Chair Professor IIT Palakkad Technology IHub Foundation (IPTIF), is a Professor (HAG) of Electrical Engineering and has served as Dean of Academic Affairs, IIT Roorkee, Founder Head Mehta Family School of Data Science and Artificial Intelligence, Professor In-Charge Training and Placement, NEEPCO and Institute Chair Professor at IIT Roorkee. <br> Dr. Padhy is a prolific researcher in the area of Power Systems Engineering and Smart Grid, and has authored over 220 papers in international journals, with an overall citation of 9500 plus, h-index of 50, and i-index of 143. He has contributed significantly to the domain by way of securing 13 international/national research grants with a funding of over INR 200 million, successfully supervised 23 research scholars and currently supervising 21 research scholars, publishing research articles, writing six books, securing patents, laboratory development and developing online NPTEL courses. <br>Dr. Padhy has held visiting positions at eminent international universities, and established research engagements and institutional tie-ups with universities from the US, UK, Denmark, Italy and Canada. He has collaborated with top industries and government agencies for research, laboratory development, and as a knowledge partner. He is well recognised in international and national professional bodies being Fellow of Indian National Academy of Engineering, The Institution of Engineering and Technology, UK, Institution of Engineers, India, Institution of Electronics and Telecommunication Engineers, India, and has actively contributed in various capacities towards their growth. He also represents the country at various international research platforms. <br>Dr. Padhy is a well awarded and honoured scholarly professional at the national and international levels, including Alexander von Humboldt Experienced Research Fellowship, Samanta Chandra Sekhar Award, IEEE Smart City Jury Award, IEEE PES Chapter Outstanding Engineer Award from IEEE Power & Energy Society, USA, and BOYSCAST Research Fellow Award for Young Scientist.",
         imageSrc: npp
     },
+
     {
         
         title: 'Prof. Parthasarathi Sensarma',
