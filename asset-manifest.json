@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.26e71285.css",
-    "main.js": "/static/js/main.09ac025f.js",
+    "main.css": "/static/css/main.0a5b03cd.css",
+    "main.js": "/static/js/main.b2bd2c2e.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
     "static/media/poster.jpg": "/static/media/poster.abe8ac0cf7f8b1b4853d.jpg",
@@ -20,6 +20,7 @@
     "static/media/nk.webp": "/static/media/nk.5ffd7aeb3235d7e6e097.webp",
     "static/media/slide2.jpg": "/static/media/slide2.2faacea92ce0fa7b247c.jpg",
     "static/media/k.webp": "/static/media/k.e92d2deef5020a475b26.webp",
+    "static/media/MAKP_singh.jpg": "/static/media/MAKP_singh.332126d90272ab83212a.jpg",
     "static/media/RR.webp": "/static/media/RR.8ed984a6808e2c34bacd.webp",
     "static/media/ds.webp": "/static/media/ds.e64d87bbf072d779f1a2.webp",
     "static/media/Silpa_Babu.jpg": "/static/media/Silpa_Babu.8c655becab5a2c8431cc.jpg",
@@ -56,14 +57,15 @@
     "static/media/SN_Singh.jpg": "/static/media/SN_Singh.26a69c8b4cd65f6eff7d.jpg",
     "static/media/ieee-up-section-logo.jpg": "/static/media/ieee-up-section-logo.05ab794c361c25c4881e.jpg",
     "static/media/Abhijit_Abhyankar.jpg": "/static/media/Abhijit_Abhyankar.281d7565e3ce7450247b.jpg",
+    "static/media/AK_Saxena.jpg": "/static/media/AK_Saxena.d3d723cc7342cdbbd6c8.jpg",
     "static/media/upneda.png": "/static/media/upneda.728fb85d367165f4a34e.png",
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
-    "main.26e71285.css.map": "/static/css/main.26e71285.css.map",
-    "main.09ac025f.js.map": "/static/js/main.09ac025f.js.map"
+    "main.0a5b03cd.css.map": "/static/css/main.0a5b03cd.css.map",
+    "main.b2bd2c2e.js.map": "/static/js/main.b2bd2c2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.26e71285.css",
-    "static/js/main.09ac025f.js"
+    "static/css/main.0a5b03cd.css",
+    "static/js/main.b2bd2c2e.js"
   ]
 }
