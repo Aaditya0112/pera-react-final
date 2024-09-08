@@ -46,13 +46,6 @@ const Speakers = [
         imageSrc: nc,
     },
     {
-
-        title: 'Mr. Sushil Kumar Soonee',
-        description: 'Advisor, grid-India   ',
-        bio:"He specializes in Power System Operation, Planning, Commercial, Settlement, Restoration and entire gamut of Power Pooling and Governance. Other areas of interest include Electricity Markets, Open Access, Regulatory affairs besides expertise in Load Despatch Technology integration of Renewable Energy including REC Mechanism, Transmission Pricing and development of Ancillary Services, SCED etc. He is a Life Fellow of Institution of Engineers (India) , Fellow of IEEE, Distinguished Alumnus IIT Kharagpur, Distinguished Member CIGRE , Fellow INAE , International Member NAE , USA .",
-        imageSrc: sks,
-    },
-    {
         title: 'Prof. Gururaj M V',
         description :'IIT Kanpur',
         bio : '',

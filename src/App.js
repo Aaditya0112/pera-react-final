@@ -6,7 +6,7 @@ import NoPage from './assets/pages/NoPage';
 import ComingSoon from './assets/pages/ComingSoon';
 import SpeakersList from './assets/pages/SpeakersList';
 import Committee from './assets/components/Committee';
-
+import EventDetails from './assets/pages/EventDetails';
 
 
 // import speaker from './assets/js/speaker.js';
@@ -37,7 +37,7 @@ function App() {
       <Route path="/committee" element={<Committee />} />
       <Route path="/sbcMembers" element={<SBC />} />
       <Route path="/speakers" element={<SpeakersList />} />
-      <Route path="/eventDetails" element={<ComingSoon />} />
+      <Route path="/eventDetails" element={<EventDetails />} />
       <Route path="/registration" element={<Registration />} />
       <Route path="/studentSupport" element={<StudentTravelSupport/>} />
       <Route path="/accomodation" element={<Accomodation/>} />

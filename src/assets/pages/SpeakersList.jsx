@@ -6,7 +6,7 @@ import Panelist from '../components/Panelist.jsx';
 import speaker from '../js/speaker.js';
 import "../stylesheets/speaker.css"
 const SpeakersList = () => {
-let bio = "Shri M.A.K.P.Singh, Member (Hydro), CEA and Chief Information Security Officer, Ministry of Power, is an Electrical Engineering Graduate from IIT Kanpur and have a MBA degree from IIT Delhi. Prior to joining Power Sector, he had worked for Schlumberger, Geo Services in Oil Industry and in Automobile leader Maruti Udyog Ltd. He joined Central Electricity Authority in 1992.  While in CEA he has worked for 12 years in Regional Power Committee RPC (Northern and Western Grid) earlier known as Regional Electricity Board.  He has 3 years’ experience of managing Northern Regional load dispatch center as Member Secretary, NRPC, New Delhi & WRPC Mumbai. In CEA, he had worked in other divisions like Fuel Management, System Planning & Project Appraisal, APDRP Cell before proceeding for deputation in NTPC in 2003. He has worked for 3 years in operation of Combined Cycle Gas Power Plant Kawas of NTPC.  He has worked for 5 years as Electrical Inspector in North Eastern Region (all seven sister states).  As Electrical Inspector he had the inspected all electrical installations of Government utilities like NHPC, NEEPCO, POWERGRID besides other industries. As Chief Engineer (IT & CS) he looked after the National Power Portal, Cyber Security and worked upon various Committee and Groups constituted for ensuring cyber security in Power Sector. He has also worked for 5 years in Hydro Sector for 5 years as Member (Power), Narmada Control Authority overseeing the O&M of 1450 MW Sardar Sarovar Hydro Plant and Dam.  He is very6 well versed with the crisis that may arise in the hydro as well as thermal plants and have a very good knowledge of the critical information infrastructure in power sector."
+let bio = "Dr. M.A.K.P.Singh, Member (Hydro), CEA and Chief Information Security Officer, Ministry of Power, is an Electrical Engineering Graduate from IIT Kanpur and have a MBA degree from IIT Delhi. Prior to joining Power Sector, he had worked for Schlumberger, Geo Services in Oil Industry and in Automobile leader Maruti Udyog Ltd. He joined Central Electricity Authority in 1992.  While in CEA he has worked for 12 years in Regional Power Committee RPC (Northern and Western Grid) earlier known as Regional Electricity Board.  He has 3 years’ experience of managing Northern Regional load dispatch center as Member Secretary, NRPC, New Delhi & WRPC Mumbai. In CEA, he had worked in other divisions like Fuel Management, System Planning & Project Appraisal, APDRP Cell before proceeding for deputation in NTPC in 2003. He has worked for 3 years in operation of Combined Cycle Gas Power Plant Kawas of NTPC.  He has worked for 5 years as Electrical Inspector in North Eastern Region (all seven sister states).  As Electrical Inspector he had the inspected all electrical installations of Government utilities like NHPC, NEEPCO, POWERGRID besides other industries. As Chief Engineer (IT & CS) he looked after the National Power Portal, Cyber Security and worked upon various Committee and Groups constituted for ensuring cyber security in Power Sector. He has also worked for 5 years in Hydro Sector for 5 years as Member (Power), Narmada Control Authority overseeing the O&M of 1450 MW Sardar Sarovar Hydro Plant and Dam.  He is very6 well versed with the crisis that may arise in the hydro as well as thermal plants and have a very good knowledge of the critical information infrastructure in power sector."
     return (<>
         <div className="keySpeaker flex justify-center ">
 
@@ -18,11 +18,11 @@ let bio = "Shri M.A.K.P.Singh, Member (Hydro), CEA and Chief Information Securit
                 
                 <div className="content flex p-2 flex-col lg:flex-row w-full justify-around items-center">
                     <div className="line flex  member-card__image h- w-56 lg:mr-6 mb-3 "  >
-                        <img src={makps} alt="Shri M.A.K.P. Singh" className='rounded'/>
+                        <img src={makps} alt="Dr. M.A.K.P. Singh" className='rounded'/>
 
                     </div>
                     <div className="member-card__info text-center align-middle">
-                        <h2>Shri M.A.K.P. Singh </h2>
+                        <h2>Dr. M.A.K.P. Singh </h2>
                         <div className="designation  text-xl  align-middle">
                             <h3 className=' text-lg leading-6'>Chief Engineer, Central Electricity. Authority (CEA) <br/>Visiting Prof IIT Kanpur</h3>
                             {/* <p>Department of Electrical Engineering <br/>Indian Institute of Technology Kanpur</p> */}
@@ -68,7 +68,13 @@ let bio = "Shri M.A.K.P.Singh, Member (Hydro), CEA and Chief Information Securit
 
             </div>
             <div className="speakers">
-                {Panelist.map((speaker, index) => { return (<HoverCard Data={speaker} />); })}
+                {
+                Panelist.map((speaker, index) => { 
+                    return (<HoverCard Data={speaker} />);})}
+                {
+                    
+                }
+                
                 </div>
         <div className="layer">
 
