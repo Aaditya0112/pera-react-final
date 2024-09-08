@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.0a5b03cd.css",
-    "main.js": "/static/js/main.b2bd2c2e.js",
+    "main.js": "/static/js/main.b8be3524.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
+    "static/media/day-2 Pera (1).png": "/static/media/day-2 Pera (1).b3a1996517da8e746995.png",
+    "static/media/day-3 Pera.jpeg": "/static/media/day-3 Pera.23e3ac7d727b784dcdc6.jpeg",
+    "static/media/day-1 Pera (2).png": "/static/media/day-1 Pera (2).9735773478ed52033a4a.png",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
     "static/media/poster.jpg": "/static/media/poster.abe8ac0cf7f8b1b4853d.jpg",
     "static/media/ss.webp": "/static/media/ss.d5184300394f1713279c.webp",
@@ -62,10 +65,10 @@
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
     "main.0a5b03cd.css.map": "/static/css/main.0a5b03cd.css.map",
-    "main.b2bd2c2e.js.map": "/static/js/main.b2bd2c2e.js.map"
+    "main.b8be3524.js.map": "/static/js/main.b8be3524.js.map"
   },
   "entrypoints": [
     "static/css/main.0a5b03cd.css",
-    "static/js/main.b2bd2c2e.js"
+    "static/js/main.b8be3524.js"
   ]
 }
