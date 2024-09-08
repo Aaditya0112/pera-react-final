@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a5b03cd.css",
-    "main.js": "/static/js/main.b8be3524.js",
+    "main.js": "/static/js/main.c7d4c745.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
     "static/media/day-2 Pera (1).png": "/static/media/day-2 Pera (1).b3a1996517da8e746995.png",
     "static/media/day-3 Pera.jpeg": "/static/media/day-3 Pera.23e3ac7d727b784dcdc6.jpeg",
@@ -24,6 +24,7 @@
     "static/media/slide2.jpg": "/static/media/slide2.2faacea92ce0fa7b247c.jpg",
     "static/media/k.webp": "/static/media/k.e92d2deef5020a475b26.webp",
     "static/media/MAKP_singh.jpg": "/static/media/MAKP_singh.332126d90272ab83212a.jpg",
+    "static/media/RA_tower.jpg": "/static/media/RA_tower.575797671c05b299e3c0.jpg",
     "static/media/RR.webp": "/static/media/RR.8ed984a6808e2c34bacd.webp",
     "static/media/ds.webp": "/static/media/ds.e64d87bbf072d779f1a2.webp",
     "static/media/Silpa_Babu.jpg": "/static/media/Silpa_Babu.8c655becab5a2c8431cc.jpg",
@@ -65,10 +66,10 @@
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
     "main.0a5b03cd.css.map": "/static/css/main.0a5b03cd.css.map",
-    "main.b8be3524.js.map": "/static/js/main.b8be3524.js.map"
+    "main.c7d4c745.js.map": "/static/js/main.c7d4c745.js.map"
   },
   "entrypoints": [
     "static/css/main.0a5b03cd.css",
-    "static/js/main.b8be3524.js"
+    "static/js/main.c7d4c745.js"
   ]
 }
