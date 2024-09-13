@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.0a5b03cd.css",
-    "main.js": "/static/js/main.8eef6d99.js",
+    "main.js": "/static/js/main.5e386e93.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
-    "static/media/day-2 Pera (1).png": "/static/media/day-2 Pera (1).b3a1996517da8e746995.png",
-    "static/media/day-3 Pera.jpeg": "/static/media/day-3 Pera.23e3ac7d727b784dcdc6.jpeg",
-    "static/media/day-1 Pera (2).png": "/static/media/day-1 Pera (2).9735773478ed52033a4a.png",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
     "static/media/poster.jpg": "/static/media/poster.abe8ac0cf7f8b1b4853d.jpg",
     "static/media/ss.webp": "/static/media/ss.d5184300394f1713279c.webp",
+    "static/media/day2.jpg": "/static/media/day2.0f4df28fd589ead642c8.jpg",
     "static/media/Sandeep_Anand.jpg": "/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
     "static/media/gr.webp": "/static/media/gr.4db4b00391765107889b.webp",
     "static/media/slide3.jpg": "/static/media/slide3.9daa59e750abcd0a69f5.jpg",
+    "static/media/day3.jpg": "/static/media/day3.24e05e22975438936ac8.jpg",
+    "static/media/day1.jpg": "/static/media/day1.603bf252438303bfb3f8.jpg",
     "static/media/VH1.jpg": "/static/media/VH1.9bfecc153571d365e9b1.jpg",
     "static/media/Skm.webp": "/static/media/Skm.f1612011eaa588cb3105.webp",
     "static/media/Premlata_Jena.jpg": "/static/media/Premlata_Jena.004810aa98c3c8fe8762.jpg",
@@ -66,10 +66,10 @@
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
     "main.0a5b03cd.css.map": "/static/css/main.0a5b03cd.css.map",
-    "main.8eef6d99.js.map": "/static/js/main.8eef6d99.js.map"
+    "main.5e386e93.js.map": "/static/js/main.5e386e93.js.map"
   },
   "entrypoints": [
     "static/css/main.0a5b03cd.css",
-    "static/js/main.8eef6d99.js"
+    "static/js/main.5e386e93.js"
   ]
 }
