@@ -1,6 +1,6 @@
-import d1 from "../images/day-1 Pera (2).png"
-import d2 from "../images/day-2 Pera (1).png"
-import d3 from "../images/day-3 Pera.jpeg"
+import d1 from "../images/day1.jpg"
+import d2 from "../images/day2.jpg"
+import d3 from "../images/day3.jpg"
 
 const EventDetails = () => {
     return (
