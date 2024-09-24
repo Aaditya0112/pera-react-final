@@ -49,7 +49,7 @@ const Layout = () => {
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="me-auto" >
             <Link to="/" className="nav-link"  onClick={
                 () => {
                     if(window.outerWidth < 768){
@@ -123,6 +123,18 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link')[5].classList.add('activeTab');
                 }
             }>Event Details</Link>
+            <Link to="/posterComp" className="nav-link" onClick={
+                () => {
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[6].classList.add('activeTab');
+                }
+            }>Student Poster Competition</Link>
             <Link to="/registration" className="nav-link" onClick={
                 () => {
 
@@ -133,7 +145,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
-                    document.querySelectorAll('.nav-link')[6].classList.add('activeTab');
+                    document.querySelectorAll('.nav-link')[7].classList.add('activeTab');
                 }
             }>Registration</Link>
             <Link to="/studentSupport" className="nav-link" onClick={
@@ -146,7 +158,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
-                    document.querySelectorAll('.nav-link')[7].classList.add('activeTab');
+                    document.querySelectorAll('.nav-link')[8].classList.add('activeTab');
                 }
             }>Student Travel Support</Link>
             <Link to="/accomodation" className="nav-link" onClick={
@@ -159,7 +171,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
-                    document.querySelectorAll('.nav-link')[8].classList.add('activeTab');
+                    document.querySelectorAll('.nav-link')[9].classList.add('activeTab');
                 }
             }>Accommodation</Link>
             <Link to="/contact" className="nav-link" onClick={
@@ -171,7 +183,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
-                    document.querySelectorAll('.nav-link')[9].classList.add('activeTab');
+                    document.querySelectorAll('.nav-link')[10].classList.add('activeTab');
                 }
             }>Contact</Link>
             {/* <Nav.Link href="/">Home</Nav.Link>

@@ -15,6 +15,7 @@ import Contact from './assets/pages/Contact';
 import SBC from './assets/pages/SBC';
 import StudentTravelSupport from './assets/pages/StudentTravelSupport';
 import Accomodation from './assets/pages/Accomodation';
+import Poster from './assets/pages/Poster';
 
 
 
@@ -38,6 +39,7 @@ function App() {
       <Route path="/sbcMembers" element={<SBC />} />
       <Route path="/speakers" element={<SpeakersList />} />
       <Route path="/eventDetails" element={<EventDetails />} />
+      <Route path ="/posterComp" element={<Poster />} />
       <Route path="/registration" element={<Registration />} />
       <Route path="/studentSupport" element={<StudentTravelSupport/>} />
       <Route path="/accomodation" element={<Accomodation/>} />

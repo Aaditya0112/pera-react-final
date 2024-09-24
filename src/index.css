@@ -241,6 +241,11 @@ p{
   color:#3cdff1;
 }
 
+.pdfobject-container{
+  width: 50%;
+  overflow-y: hidden;
+}
+
 
 
 @media (max-width: 767px) {
@@ -355,6 +360,15 @@ p{
     margin: 5px 0 0 0;
     padding: 5px !important;
   }
+  .pdfobject-container
+  {
+    width: 90%;
+  }
+  .pdfobject{
+    width: 100% !important;
+    height: 60vh !important;
+    
+  }
 }
 @media (max-width: 900px){
   .nav-link
@@ -366,6 +380,12 @@ p{
 @media (min-width: 768px) { /* to be changed wrt third breakpoint*/
   .container-fluid {
       width: fit-content;
+  }
+
+  .navbar>.container{
+
+      min-width: 100%;
+      padding: 0;
   }
 
   .navbar-expand-lg .navbar-nav {
