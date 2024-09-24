@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a5b03cd.css",
-    "main.js": "/static/js/main.5e386e93.js",
+    "main.css": "/static/css/main.1306e21f.css",
+    "main.js": "/static/js/main.34cbd7c0.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
     "static/media/poster.jpg": "/static/media/poster.abe8ac0cf7f8b1b4853d.jpg",
@@ -29,6 +29,7 @@
     "static/media/ds.webp": "/static/media/ds.e64d87bbf072d779f1a2.webp",
     "static/media/Silpa_Babu.jpg": "/static/media/Silpa_Babu.8c655becab5a2c8431cc.jpg",
     "static/media/RTDS.jpg": "/static/media/RTDS.33affab2fa93a25bd4ad.jpg",
+    "static/media/PosterGuidelines.pdf": "/static/media/PosterGuidelines.bc5cd734d75db6d671d1.pdf",
     "static/media/entuple.jpg": "/static/media/entuple.8c8c3853efd68f6bb0f1.jpg",
     "static/media/iitk_logo.png": "/static/media/iitk_logo.13742586b87ba6b0765b.png",
     "static/media/shushilKumarSoonee.jpeg": "/static/media/shushilKumarSoonee.cdd3886c4698fd1fe017.jpeg",
@@ -65,11 +66,11 @@
     "static/media/upneda.png": "/static/media/upneda.728fb85d367165f4a34e.png",
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
-    "main.0a5b03cd.css.map": "/static/css/main.0a5b03cd.css.map",
-    "main.5e386e93.js.map": "/static/js/main.5e386e93.js.map"
+    "main.1306e21f.css.map": "/static/css/main.1306e21f.css.map",
+    "main.34cbd7c0.js.map": "/static/js/main.34cbd7c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a5b03cd.css",
-    "static/js/main.5e386e93.js"
+    "static/css/main.1306e21f.css",
+    "static/js/main.34cbd7c0.js"
   ]
 }
