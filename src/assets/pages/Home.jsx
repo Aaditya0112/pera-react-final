@@ -16,7 +16,8 @@ const Home = () => {
 
       <div className="announcement">
         <a href="/registration">
-          <h1>Registration Open Now!!! Limited Travel Support, Hurry Up!!!</h1>
+          <h1>Registration Deadline Extended.     Limited Travel Support, Hurry Up!!!</h1>
+
         </a>
       </div>
 
@@ -64,8 +65,8 @@ const Home = () => {
 </VerticalTimelineElement>
 <VerticalTimelineElement
   className="vertical-timeline-element--work"
-  date="30 Sep 2024"
-  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+  date="15-Oct-2024"
+  iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' , }}
 
 >
   <h3 className="vertical-timeline-element-title">Registration Closes</h3>

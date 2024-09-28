@@ -246,6 +246,19 @@ p{
   overflow-y: hidden;
 }
 
+.vertical-timeline-element--work > .vertical-timeline-element-content {
+  background: #f9f9f9;
+  color: #2c3e50;
+  border-radius: 10px;
+  box-shadow: 0 3px 0 #3cdff1;
+  padding: 1.5em;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  transition: background 0.2s, color 0.2s;
+}
+
 
 
 @media (max-width: 767px) {

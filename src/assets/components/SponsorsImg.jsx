@@ -4,7 +4,7 @@ import tmeic from '../images/tmeic.jpg';
 import Typhoon from '../images/Typhoon-HIL.webp';
 import ieeeup from '../images/ieee-up-section-logo.jpg';
 import upn from "../images/upneda.png";
-import baud from "../images/baud.jpeg";
+import baud from "../images/baud_resources_logo.jpeg";
 
 const SponsorsImg = [
     {

@@ -3,6 +3,7 @@ import vhp2 from "../images/VH1.jpg"
 import hx from "../images/hall12.avif"
 import h9 from "../images/Hall9.jpg"
 import rat from "../images/RA_tower.jpg"
+import gh1 from "../images/GH1.jpg"
 
 const Accomodation = () => {
     return(
@@ -24,6 +25,7 @@ const Accomodation = () => {
             <div className="flex flex-col lg:flex-row w-full justify-evenly">
                     <div className="img1 p-2 m-2"><img src= {hx} className="h-64 w-fit"/></div>
                     <div className="img2 p-2 m-2    "><img src= {h9} className="h-64 "/></div>
+                    <div className="img3 p-2 m-2"><img src= {gh1} className="h-64 "/></div>
                 </div>
             </li>
         </ul>
