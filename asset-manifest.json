@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.380e9e7c.css",
-    "main.js": "/static/js/main.b017d0da.js",
+    "main.js": "/static/js/main.870db358.js",
     "static/media/Hall9.jpg": "/static/media/Hall9.aaeb24e535c62ecdbad4.jpg",
     "static/media/SBC.jpg": "/static/media/SBC.97ff41ad5cc2a750e082.jpg",
-    "static/media/poster.jpg": "/static/media/poster.96c01153e7e1f8ab816d.jpg",
+    "static/media/poster2.jpg": "/static/media/poster2.f221d751ce8d88d9b466.jpg",
     "static/media/ss.webp": "/static/media/ss.d5184300394f1713279c.webp",
     "static/media/day2.jpg": "/static/media/day2.0f4df28fd589ead642c8.jpg",
     "static/media/Sandeep_Anand.jpg": "/static/media/Sandeep_Anand.c2193b3a34f693329795.jpg",
@@ -27,6 +27,7 @@
     "static/media/MAKP_singh.jpg": "/static/media/MAKP_singh.332126d90272ab83212a.jpg",
     "static/media/RA_tower.jpg": "/static/media/RA_tower.575797671c05b299e3c0.jpg",
     "static/media/RR.webp": "/static/media/RR.8ed984a6808e2c34bacd.webp",
+    "static/media/ieeeyp.jpg": "/static/media/ieeeyp.7a1b748fdac1efd833b4.jpg",
     "static/media/ds.webp": "/static/media/ds.e64d87bbf072d779f1a2.webp",
     "static/media/Silpa_Babu.jpg": "/static/media/Silpa_Babu.8c655becab5a2c8431cc.jpg",
     "static/media/RTDS.jpg": "/static/media/RTDS.33affab2fa93a25bd4ad.jpg",
@@ -68,10 +69,10 @@
     "static/media/ieee.svg": "/static/media/ieee.8b59718119646ba4a69448da98870a33.svg",
     "index.html": "/index.html",
     "main.380e9e7c.css.map": "/static/css/main.380e9e7c.css.map",
-    "main.b017d0da.js.map": "/static/js/main.b017d0da.js.map"
+    "main.870db358.js.map": "/static/js/main.870db358.js.map"
   },
   "entrypoints": [
     "static/css/main.380e9e7c.css",
-    "static/js/main.b017d0da.js"
+    "static/js/main.870db358.js"
   ]
 }
