@@ -5,6 +5,7 @@ import Typhoon from '../images/Typhoon-HIL.webp';
 import ieeeup from '../images/ieee-up-section-logo.jpg';
 import upn from "../images/upneda.png";
 import baud from "../images/baud_resources_logo.jpeg";
+import ieeeyp from "../images/ieeeyp.jpg";
 
 const SponsorsImg = [
     {
@@ -38,7 +39,12 @@ const SponsorsImg = [
     {
         id: 7,
         image: baud,
+    },
+    {
+        id: 8,
+        image: ieeeyp,
     }
+    
 
 ]
 

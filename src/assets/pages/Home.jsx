@@ -4,7 +4,7 @@ import slide2 from '../images/slide2.jpg';
 import slide3 from '../images/slide3.jpg';
 import Timer from '../components/Timer';
 import SponsorsImg from '../components/SponsorsImg';
-import poster from "../files/poster.jpg"
+import poster from "../files/poster2.jpg"
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
