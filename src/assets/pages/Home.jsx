@@ -74,7 +74,7 @@ const Home = () => {
 </VerticalTimelineElement>
 <VerticalTimelineElement
   className="vertical-timeline-element--work"
-  date="30 Nov 2024"
+  date="29 Nov 2024"
   iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
 
 >
