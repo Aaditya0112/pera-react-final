@@ -6,6 +6,7 @@ import ieeeup from '../images/ieee-up-section-logo.jpg';
 import upn from "../images/upneda.png";
 import baud from "../images/baud_resources_logo.jpeg";
 import ieeeyp from "../images/ieeeyp.jpg";
+import symm from "../images/Symmetricals.jpg"
 
 const SponsorsImg = [
     {
@@ -43,7 +44,12 @@ const SponsorsImg = [
     {
         id: 8,
         image: ieeeyp,
+    },
+    {
+        id: 9,
+        image: symm,
     }
+    
     
 
 ]

@@ -9,6 +9,7 @@
 .ratesTable {
     display: flex;
     justify-content: center;
+    
     td:hover{
         transform: scale(1.15);
     }
@@ -35,8 +36,17 @@
 
     th,
     td {
+        
         padding: 5px 20px;
         text-align: center;
+    }
+    
+    tr{
+        text-decoration: line-through;
+    }
+
+    tr:nth-child(3){
+        text-decoration: none !important;
     }
 
     /* tbody {
@@ -66,7 +76,7 @@
         color: #FDFDFD;
 
         tr {
-
+            text-decoration: none !important;
             display: block;
             position: relative;
         }

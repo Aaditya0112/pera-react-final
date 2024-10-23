@@ -16,7 +16,7 @@ const Home = () => {
 
       <div className="announcement">
         <a href="/registration">
-          <h1> Travel Support is Over now!! Registration Deadline Extended.</h1>
+          <h1> Registration available only in professional category.</h1>
 
         </a>
       </div>
