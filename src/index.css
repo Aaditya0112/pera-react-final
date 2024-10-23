@@ -127,7 +127,23 @@ body{
   align-items: center;
   justify-content: center;
 }
+.info{
+    background-color: #ffffff;
+    
+    padding: 20px 40px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    z-index: 3;
+    /* transition: display 10s, animation 2s; */
+    p{
+        font-size: 1.25rem;
+    }
 
+}
 .skills{
   display: flex;
   flex-direction: row;

@@ -33,6 +33,7 @@ const Home = () => {
             <img src={slide3} alt=""/>
           </Carousel.Item>
         </Carousel>
+        
 
         {/*<div class="carousel slide"><div class="carousel-indicators"><button type="button" data-bs-target="" aria-label="Slide 1" aria-current="true" class="active"></button><button type="button" data-bs-target="" aria-label="Slide 2" aria-current="false"></button><button type="button" data-bs-target="" aria-label="Slide 3" aria-current="false"></button></div><div class="carousel-inner"><div interval="5000" class="active carousel-item"><img src="/pera-react-final/static/media/slide1.762c2c3e5c60cf51cff3.jpg" alt=""></div><div interval="5000" class="carousel-item"><img src="/pera-react-final/static/media/slide2.2faacea92ce0fa7b247c.jpg" alt=""></div><div interval="5000" class="carousel-item"><img src="/pera-react-final/static/media/slide3.9daa59e750abcd0a69f5.jpg" alt=""></div></div><a class="carousel-control-prev" role="button" tabindex="0" href="#" style="
     background: black;
@@ -51,6 +52,22 @@ const Home = () => {
           <a href={poster} target='_blank' rel='noreferrer' className='text-sm lg:text-base'>Poster</a>
         </div>
       </div>
+      <div className="info w-4/5  lg:w-2/5 h-fit fixed text-lg">
+            <div className="popupContent">
+                <h2 className='underline purple'>Important Announcement</h2>
+                <p>
+                We are sending emails for registration confirmation. Those who don’t receive it by the end of October, please reach out to us via email: <a href="mailto:pera2024.iitk@gmail.com" className=' text-red-500'>pera2024.iitk@gmail.com</a></p>
+            </div>
+            
+            <button className='popupClose' onClick={() => {
+                document.querySelector('.layer').classList.remove('activeL');
+                document.querySelector('.info').removeAttribute('id');
+                document.querySelector('.popupContent').innerHTML = '';
+                document.querySelector('.info').style.display = 'none';
+            }}>&#10006;</button>
+
+        </div>
+        <div className="layer activeL"></div>
 
 
       <VerticalTimeline>

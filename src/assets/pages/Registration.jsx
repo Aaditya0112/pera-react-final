@@ -33,7 +33,7 @@ const Registration = () => {
                         </tr>
                         <tr>
                             <td>Special Category<br />(Female IEEE Student)</td>
-                            <td>&#8377; 1000</td>
+                            <td>&#8377; 1000 <br/> <span class="text-base font-semibold text-red-500 font-light">Limit Reached !!</span></td>
                             <td>&#8377; 500</td>
                         </tr>
                     </tbody>
