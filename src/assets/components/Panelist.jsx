@@ -9,11 +9,16 @@ import nc from "../images/Members/Committee/Naveen_ChilamKurti.jpg"
 import makps from "../images/speakers/MAKP_singh.jpg"
 import aa from "../images/speakers/Abhijit_Abhyankar.jpg"
 
-const Panelist = [
-    {
+import sm from "../images/speakers/Super-Session/Sreekanth Menoth.jpg"
+import dm from "../images/speakers/Super-Session/Dishant Mishra.jpg"
+import ad from "../images/speakers/Super-Session/Ashwin Damle.jpg"
+import nt from "../images/speakers/Super-Session/Nilesh Thakare.jpg"
+
+const Panelist = {
+    panelist : [{
         title: "Prof. Abheejeet Mohapatra",
         description: "Moderator",
-        bio:"",
+        bio: "Prof. Abheejeet Mohapatra, an Associate Professor in Electrical Engineering at IIT Kanpur, received his B.Tech. in Electrical Engineering from CET Bhubaneswar in 2008 and his M.Tech. and Ph.D. in Electrical Engineering from IIT Delhi in 2010 and 2014. His research includes optimization in power network operation and planning, protection of AC and DC microgrids, and the stability and security of power networks integrating renewable energy sources. He is Class of 1979 Young Faculty Fellow at IIT Kanpur since September 9, 2024, INAE Young Engineer Awardee 2021, and Devendra Shukla Young Faculty Fellow at IIT Kanpur from September 1, 2020, to August 31, 2023", 
         imageSrc: am,
     },
     {
@@ -24,19 +29,19 @@ const Panelist = [
     },
 
     {
-        title: "Mr A. K. Saxena",
+        title: "Mr. A. K. Saxena",
         description: " Panelist Senior Fellow and Senior Director, Electricity and Renewables Division, TERI - The Energy and Resources Institute",
         bio:"Mr A. K. Saxena is engaged with the Electricity and Renewables Division of The Energy and Resources Institute (TERI) as its Senior Director. A veteran of India’s power sector with an experience spanning over four decades India his expertise lies in the areas of energy transition, just transition, smart distribution with energy storage, e-mobility, demand side management, smart grids, cross-border electricity trade, and more. Prior to his stint at TERI, Mr Saxena has worked with the Central Electricity Authority, Ministry of Power, and Central Electricity Regulatory Commission (CERC). He has also served as the Chair/Member/Convenor of Committees set up by CERC and is currently presiding as a Chairperson of the Industry Advisory Board of IIT-Kanpur and La Trobe University Research Academy. Mr Saxena holds a Master’s degree in Electrical Engineering and an Masters in Business Administration. He is also a Fellow of the Institution of Engineers (India) and a member of Institute of Electrical and Electronics Engineers (IEEE).",
         imageSrc: aks,
     },
     {
-        title: "Dr. M.A.K.P. Singh",
+        title: "Shri M.A.K.P. Singh",
         description: "Panelist",
         bio:"Dr. M.A.K.P.Singh, Member (Hydro), CEA and Chief Information Security Officer, Ministry of Power, is an Electrical Engineering Graduate from IIT Kanpur and have a MBA degree from IIT Delhi. Prior to joining Power Sector, he had worked for Schlumberger, Geo Services in Oil Industry and in Automobile leader Maruti Udyog Ltd. He joined Central Electricity Authority in 1992.  While in CEA he has worked for 12 years in Regional Power Committee RPC (Northern and Western Grid) earlier known as Regional Electricity Board.  He has 3 years’ experience of managing Northern Regional load dispatch center as Member Secretary, NRPC, New Delhi & WRPC Mumbai. In CEA, he had worked in other divisions like Fuel Management, System Planning & Project Appraisal, APDRP Cell before proceeding for deputation in NTPC in 2003. He has worked for 3 years in operation of Combined Cycle Gas Power Plant Kawas of NTPC.  He has worked for 5 years as Electrical Inspector in North Eastern Region (all seven sister states).  As Electrical Inspector he had the inspected all electrical installations of Government utilities like NHPC, NEEPCO, POWERGRID besides other industries. As Chief Engineer (IT & CS) he looked after the National Power Portal, Cyber Security and worked upon various Committee and Groups constituted for ensuring cyber security in Power Sector. He has also worked for 5 years in Hydro Sector for 5 years as Member (Power), Narmada Control Authority overseeing the O&M of 1450 MW Sardar Sarovar Hydro Plant and Dam.  He is very6 well versed with the crisis that may arise in the hydro as well as thermal plants and have a very good knowledge of the critical information infrastructure in power sector.",
         imageSrc: makps,
     },
     {
-        title: "Prof. S C Srivastava",
+        title: "Prof. S. C. Srivastava",
         description: "Panelist",
         bio:"S. C. Srivastava received the Ph.D. degree in electrical engineering from the Indian Institute of Technology Delhi, New Delhi, India, in 1987. He was a Professor with the Department of Electrical Engineering, Indian Institute of Technology Kanpur, Kanpur, India, till 2020, and former Director of IIT Kanpur-LaTrobe University Research Academy and a Distinguished Visiting Professor. His research interests include power system stability and security analysis, synchrophasor applications, power system restructuring and ac/dc microgrids, and smart grids.",
         imageSrc: scs,
@@ -44,7 +49,7 @@ const Panelist = [
     {
         title: "Prof. Saikat Chakrabarti",
         description: "Panelist",
-        bio:"",
+        bio:"Prof. S. Chakrabarti completed PhD in Electrical Engineering from the Memorial University of Newfoundland, Canada in 2006. Previously, he worked at ABB Limited, India, and BARC, India. He has worked as a Special Scientist at the University of Cyprus, Cyprus, and as a Research Associate and as a Lecturer at the QUT, Australia. Since 2009 he has been working in the Department of EE, IIT Kanpur, where he has been a Chair Professor since 2018. From July 2023 to April 2014, he worked as a Chair Professor and Director of the Emera and NB Power Research Centre for Smart Grid Technologies, University of New Brunswick, Fredericton, Canada. His research interests are in the areas of monitoring, control, and protection of smart transmission and distribution systems and microgrids.",
         imageSrc: sc,
     },
     {
@@ -68,12 +73,39 @@ const Panelist = [
     {
         title: "Prof. Ankush Sharma",
         description: "Panelist",
-        bio:"",
+        bio:"Prof. Ankush Sharma received his M.Tech. and Ph.D. in electrical engineering from IIT Kanpur in 2001 and 2014, respectively. He has 24 years of experience in teaching, R&D, consultancy, and project management, he specializes in power systems and smart grids. He has worked with Tata Consultancy Services and Wipro Technologies, leading research and consultancy in global utility projects. PMP certified, he has a strong academic background and numerous publications in IEEE journals and conferences.",
         imageSrc: as,
+    }],
+
+    superSession:[{
+        title: "Mr. Sreekanth Menoth ",
+        description: "TMEIC",
+        bio:"",
+        imageSrc: sm,
+    },
+    {
+        title: "Mr. Dishant Mishra",
+        description: "Baud Resources",
+        bio:"",
+        imageSrc: dm,
+    },
+    {
+        title: "Mr. Nilesh Thakare",
+        description: "Entuple",
+        bio:"",
+        imageSrc: nt,
+    },
+    {
+        title: "Mr. Ashwin Damle",
+        description: "RTDS",
+        bio:"",
+        imageSrc: ad,
     },
 
 
+    ]
+}
 
-]
+
 
 export default Panelist;

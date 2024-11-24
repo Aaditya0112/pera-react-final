@@ -14,7 +14,7 @@ function SBC() {
                 <img src={gmv} alt="Prof"/>
             </div>
             <div className="member-card__info text-center">
-                <h2>Dr. Gururaj M V <a href='https://www.linkedin.com/in/dr-guru-raj-14430723/?originalSubdomain=in' target='_blank'><i style={{fontSize : '24px', color :'#0a66c2', cursor:'pointer'
+                <h2>Dr. Gururaj M. V. <a href='https://www.linkedin.com/in/dr-guru-raj-14430723/?originalSubdomain=in' target='_blank'><i style={{fontSize : '24px', color :'#0a66c2', cursor:'pointer'
                 }} class="fa fa-linkedin-square"></i></a></h2>
                 <div className="designation font-bold text-xl cyan-400">
                     <h3 className='text-black text-lg leading-4'> Assistant Professor, IIT Kanpur</h3>

@@ -16,6 +16,7 @@ import SBC from './assets/pages/SBC';
 import StudentTravelSupport from './assets/pages/StudentTravelSupport';
 import Accomodation from './assets/pages/Accomodation';
 import Poster from './assets/pages/Poster';
+import ChiefGuest from './assets/pages/ChiefGuest';
 
 
 
@@ -37,6 +38,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/committee" element={<Committee />} />
       <Route path="/sbcMembers" element={<SBC />} />
+      <Route path="/chiefGuest" element={<ChiefGuest />} />
       <Route path="/speakers" element={<SpeakersList />} />
       <Route path="/eventDetails" element={<EventDetails />} />
       <Route path ="/posterComp" element={<Poster />} />

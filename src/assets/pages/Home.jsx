@@ -16,7 +16,7 @@ const Home = () => {
 
       <div className="announcement">
         <a href="/registration">
-          <h1> Registration available only in professional category.</h1>
+          <h1> Registration Ended.</h1>
 
         </a>
       </div>
@@ -49,14 +49,14 @@ const Home = () => {
           Renewable Energy and Electric Mobility"</h4>
           <p className='text-sm lg:text-xl'>29 November - 1 December 2024</p>
           <h5 className='text-base lg:text-xl'>Indian Institute of Technology Kanpur, India</h5>         
-          <a href={poster} target='_blank' rel='noreferrer' className='text-sm lg:text-base'>Poster</a>
+          <a href={poster} target='_blank' rel='noreferrer' className='text-sm lg:text-base'>Brochure</a>
         </div>
       </div>
       <div className="info w-4/5  lg:w-2/5 h-fit fixed text-lg">
             <div className="popupContent">
                 <h2 className='underline purple'>Important Announcement</h2>
                 <p>
-                We are sending emails for registration confirmation. Those who don’t receive it by the end of October, please reach out to us via email: <a href="mailto:pera2024.iitk@gmail.com" className=' text-red-500'>pera2024.iitk@gmail.com</a></p>
+                Any requests for refund will not be entertained as all the preparations leading to the event are finalised, and all the arrangements have been made. </p>
             </div>
             
             <button className='popupClose' onClick={() => {
@@ -145,11 +145,19 @@ Creative Direction, Visual Design
         <div className="skills" id="skills">
           {
             SponsorsImg.map((sponsor) => {
-              return (
+              if(sponsor.id == "10" || sponsor.id == "11"){
+                return (
+                  <div className="card" key={sponsor.id}>
+                    <img src={sponsor.image} className='w-2/5' alt="" />
+                  </div>
+                )
+              } 
+              else{
+                return(
                 <div className="card" key={sponsor.id}>
                   <img src={sponsor.image} alt="" />
                 </div>
-              )
+              )}
             }
             )}
 

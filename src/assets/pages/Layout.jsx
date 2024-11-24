@@ -5,8 +5,10 @@ import ieee_logo from "../images/ieee.svg";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { useNavigate } from "react-router-dom";
 
 const Layout = () => {
+    const navigate = useNavigate();
 
     // document.querySelectorAll('.nav-link').forEach((link) => {
     //     link.addEventListener('click', () => {
@@ -99,7 +101,7 @@ const Layout = () => {
                     
                 }
             }>SBC Members</Link>
-            <Link to="/speakers" className="nav-link" onClick={
+            <Link to="/chiefGuest" className="nav-link" onClick={
                 () => {
                     if(window.outerWidth < 768){
                         document.querySelector('.navbar-toggler').click();
@@ -109,6 +111,19 @@ const Layout = () => {
                         link.classList.remove('activeTab');
                     })
                     document.querySelectorAll('.nav-link')[4].classList.add('activeTab');
+                    // navigate('/chiefGuest/#chief-guest');
+                }
+            }>Chief Guest</Link>
+            <Link to="/speakers" className="nav-link" onClick={
+                () => {
+                    if(window.outerWidth < 768){
+                        document.querySelector('.navbar-toggler').click();
+                    }
+
+                    document.querySelectorAll('.nav-link').forEach((link) => {
+                        link.classList.remove('activeTab');
+                    })
+                    document.querySelectorAll('.nav-link')[5].classList.add('activeTab');
                 }
             }>Speakers</Link>
             <Link to="/eventDetails" className="nav-link" onClick={
@@ -120,7 +135,7 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
-                    document.querySelectorAll('.nav-link')[5].classList.add('activeTab');
+                    document.querySelectorAll('.nav-link')[6].classList.add('activeTab');
                 }
             }>Event Details</Link>
             <Link to="/posterComp" className="nav-link" onClick={
@@ -132,10 +147,10 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
-                    document.querySelectorAll('.nav-link')[6].classList.add('activeTab');
+                    document.querySelectorAll('.nav-link')[7].classList.add('activeTab');
                 }
             }>Student Poster Competition</Link>
-            <Link to="/registration" className="nav-link" onClick={
+            {/* <Link to="/registration" className="nav-link" onClick={
                 () => {
 
                     if(window.outerWidth < 768){
@@ -145,9 +160,9 @@ const Layout = () => {
                     document.querySelectorAll('.nav-link').forEach((link) => {
                         link.classList.remove('activeTab');
                     })
-                    document.querySelectorAll('.nav-link')[7].classList.add('activeTab');
+                    document.querySelectorAll('.nav-link')[].classList.add('activeTab');
                 }
-            }>Registration</Link>
+            }>Registration</Link> */}
             <Link to="/studentSupport" className="nav-link" onClick={
                 () => {
 

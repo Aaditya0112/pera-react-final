@@ -4,6 +4,8 @@ import React, { useState } from 'react';
 // import img from '../Images/1.jpeg'
 const HoverCard = (props) => {
   const { id, title, description, imageSrc, bio } = props.Data;
+  const display = props.display
+
 
   return (
     <div
@@ -27,7 +29,7 @@ const HoverCard = (props) => {
             <h2>About Speaker</h2>
             <p>${bio}</p>`;
 
-          }}>About</button>
+          }} style={{display : display}}>About</button>
           {/* {isFlipped&&<p>{description}</p>}
           {isFlipped&&<p>{bio}</p>} */}
         </div>

@@ -22,7 +22,7 @@ let bio = "Dr. M.A.K.P.Singh, Member (Hydro), CEA and Chief Information Security
 
                     </div>
                     <div className="member-card__info text-center align-middle">
-                        <h2>Dr. M.A.K.P. Singh </h2>
+                        <h2>Shri M.A.K.P. Singh </h2>
                         <div className="designation  text-xl  align-middle">
                             <h3 className=' text-lg leading-6'>Chief Engineer, Central Electricity. Authority (CEA) <br/>Visiting Prof IIT Kanpur</h3>
                             {/* <p>Department of Electrical Engineering <br/>Indian Institute of Technology Kanpur</p> */}
@@ -69,13 +69,28 @@ let bio = "Dr. M.A.K.P.Singh, Member (Hydro), CEA and Chief Information Security
             </div>
             <div className="speakers">
                 {
-                Panelist.map((speaker, index) => { 
+                Panelist.panelist.map((speaker, index) => { 
                     return (<HoverCard Data={speaker} />);})}
                 {
                     
                 }
                 
                 </div>
+
+                {/* <div className="mb-8 mt-5 flex flex-col items-center ">
+                <h2 className="text-2xl text-white text-center font-bold mb-4 bg-gradient-to-l from-blue-500 to-red-100 p-2 w-full">Industry Super Session </h2>
+
+
+            </div>
+            <div className="speakers">
+                {
+                Panelist.superSession.map((speaker, index) => { 
+                    return (<HoverCard Data={speaker} display = 'none' />);})}
+                {
+                    
+                }
+                
+                </div> */}
         <div className="layer">
 
         </div>

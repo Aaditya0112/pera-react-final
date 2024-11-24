@@ -7,6 +7,8 @@ import upn from "../images/upneda.png";
 import baud from "../images/baud_resources_logo.jpeg";
 import ieeeyp from "../images/ieeeyp.jpg";
 import symm from "../images/Symmetricals.jpg"
+import hyki from "../images/hioki.png"
+import wvct from "../images/wavect.png"
 
 const SponsorsImg = [
     {
@@ -48,6 +50,14 @@ const SponsorsImg = [
     {
         id: 9,
         image: symm,
+    },{
+        id: 10,
+        image: hyki
+    },
+    {
+        id:11,
+        image: wvct
+
     }
     
     
