@@ -29,7 +29,7 @@ const Timer = ({ eventDate }) => {
   });
 
   return (<>
-    <h1 className=' text-center text-red-400 mb-8 text-3xl lg:text-5xl '>Hurry Up, Get Your Seat Now !!!</h1>
+    <h1 className=' text-center text-red-400 mb-8 text-3xl lg:text-5xl '>Event Starts in</h1>
     <div className=" w-auto flex justify-center space-x-2 ">
       {timeLeft.days >= 0 && (
         <div className="flex flex-col items-center w-1/5 bg-blue-200 rounded-lg p-3 lg:w-auto lg:p-4 lg:flex-row lg:items-end">

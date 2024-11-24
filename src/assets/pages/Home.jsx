@@ -10,7 +10,7 @@ import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeli
 import 'react-vertical-timeline-component/style.min.css';
 const Home = () => {
 
-  const eventDate = new Date('2024-11-29T00:00:00Z');
+  const eventDate = new Date('2024-11-29T08:30:00Z');
   return (
     <>
 
